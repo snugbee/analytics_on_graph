@@ -1,475 +1,475 @@
 employee_id,job,start_date,end_date,is_manager
-05100454,Customer Relations Co-worker,2011-01-01,9999-12-31 00:00:00,Non Manager
-05101515,IKEA Food Co-worker,2003-02-01,9999-12-31 00:00:00,Non Manager
-05102902,Customer Relations Co-worker,2007-03-15,9999-12-31 00:00:00,Non Manager
-05107330,Recovery Co-worker,2003-04-01,9999-12-31 00:00:00,Non Manager
-05108128,Sales Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05109204,Customer Relations Co-worker,2011-06-01,9999-12-31 00:00:00,Non Manager
-05110021,Customer Relations Co-worker,2022-07-01,9999-12-31 00:00:00,Non Manager
-05110940,Frontliner,2017-08-01,9999-12-31 00:00:00,Non Manager
-05114441,IKEA Food Co-worker,2020-06-01,2023-09-30 00:00:00,Non Manager
-05114441,Goods Flow Co-worker,2023-10-01,9999-12-31 00:00:00,Non Manager
-05116882,Maintenance Co-worker,2010-09-01,9999-12-31 00:00:00,Non Manager
-05117750,Goods Flow Co-worker,2023-10-15,9999-12-31 00:00:00,Non Manager
-05118810,Goods Flow Co-worker,2021-11-15,9999-12-31 00:00:00,Non Manager
-05120475,Goods Flow Co-worker,2023-12-01,9999-12-31 00:00:00,Non Manager
-05123755,Sales Co-worker,2009-01-01,9999-12-31 00:00:00,Non Manager
-05125119,Frontliner,2007-02-01,9999-12-31 00:00:00,Non Manager
-05125391,Facility Management Manager,2012-03-15,9999-12-31 00:00:00,Manager
-05128141,Goods Flow Co-worker,2022-04-01,9999-12-31 00:00:00,Non Manager
-05132831,Sales Co-worker,2022-05-15,9999-12-31 00:00:00,Non Manager
-05133918,Kitchen Production Specialist,2019-08-01,9999-12-31 00:00:00,Non Manager
-05135604,Goods Flow Co-worker,2019-09-01,9999-12-31 00:00:00,Non Manager
-05137976,Goods Flow Co-worker,2021-02-15,2022-09-30 00:00:00,Non Manager
-05137976,Sales Co-worker,2022-10-01,9999-12-31 00:00:00,Non Manager
-05138352,Goods Flow Co-worker,2017-10-15,9999-12-31 00:00:00,Non Manager
-05140948,Sales Co-worker,2009-11-15,9999-12-31 00:00:00,Non Manager
-05141932,Sales Co-worker,2005-12-01,9999-12-31 00:00:00,Non Manager
-05144533,Goods Flow Co-worker,2022-01-01,9999-12-31 00:00:00,Non Manager
-05145671,Sales Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05155554,Sales Co-worker,2003-03-15,9999-12-31 00:00:00,Non Manager
-05159639,Sales Team Leader,2020-04-01,9999-12-31 00:00:00,Manager
-05160311,Goods Flow Co-worker,2023-05-15,9999-12-31 00:00:00,Non Manager
-05161196,Sales Co-worker,2009-06-01,9999-12-31 00:00:00,Non Manager
-05163118,Customer Relations Co-worker,2003-07-01,9999-12-31 00:00:00,Non Manager
-05164065,Goods Flow Co-worker,2001-08-01,9999-12-31 00:00:00,Non Manager
-05164908,Goods Flow Co-worker,2020-09-01,9999-12-31 00:00:00,Non Manager
-05173887,Recovery Co-worker,2006-10-15,9999-12-31 00:00:00,Non Manager
-05178130,Checkout Coworker IKEA FOOD,2022-09-01,9999-12-31 00:00:00,Non Manager
-05179114,Sales Co-worker,2022-10-15,9999-12-31 00:00:00,Non Manager
-05183235,People & Culture Generalist,2021-11-15,9999-12-31 00:00:00,Non Manager
-05187625,Customer Relations Co-worker,2021-12-01,9999-12-31 00:00:00,Non Manager
-05190605,Goods Flow Co-worker,2021-01-01,9999-12-31 00:00:00,Non Manager
-05192661,Apprentice,2022-02-01,9999-12-31 00:00:00,Non Manager
-05192796,Customer Relations Co-worker,2012-03-15,9999-12-31 00:00:00,Non Manager
-05194452,IKEA Food Co-worker,2012-11-01,2022-12-31 00:00:00,Non Manager
-05194452,Customer Relations Co-worker,2023-01-01,9999-12-31 00:00:00,Non Manager
-05196068,Controller,2011-04-01,9999-12-31 00:00:00,Non Manager
-05196087,Goods Flow Co-worker,2022-05-15,9999-12-31 00:00:00,Non Manager
-05196612,Goods Flow Co-worker,2018-06-01,9999-12-31 00:00:00,Non Manager
-05196645,Sales Co-worker,1999-07-01,9999-12-31 00:00:00,Non Manager
-05201247,IF Bistro & Sweden Shop Co-worker,2003-08-01,9999-12-31 00:00:00,Non Manager
-05201259,IKEA Food Co-worker,2004-09-01,9999-12-31 00:00:00,Non Manager
-05201467,People & Culture Generalist,2018-10-15,9999-12-31 00:00:00,Non Manager
-05208835,Goods Flow Co-worker,2016-11-15,9999-12-31 00:00:00,Non Manager
-05209918,Goods Flow Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05210010,Frontliner,2021-01-01,9999-12-31 00:00:00,Non Manager
-05210686,IF Team Leader,2016-11-15,2023-01-31 00:00:00,Manager
-05210686,Sales Team Leader,2023-02-01,9999-12-31 00:00:00,Manager
-05214681,Customer Relations Co-worker,2023-02-01,9999-12-31 00:00:00,Non Manager
-05214902,Sales Co-worker,2012-03-15,9999-12-31 00:00:00,Non Manager
-05214979,Commercial Activity Leader,2015-04-01,9999-12-31 00:00:00,Non Manager
-05215842,Goods Flow Co-worker,2021-05-15,9999-12-31 00:00:00,Non Manager
-05216737,Interior Design Manager,2010-06-01,9999-12-31 00:00:00,Manager
-05219068,Goods Flow Co-worker,1991-07-01,9999-12-31 00:00:00,Non Manager
-05219455,Goods Flow Co-worker,2023-08-01,9999-12-31 00:00:00,Non Manager
-05223721,Interior Design Co-worker,1981-09-01,9999-12-31 00:00:00,Non Manager
-05227315,Goods Flow Co-worker,2023-10-15,9999-12-31 00:00:00,Non Manager
-05228625,Sales Co-worker,2006-03-15,2022-03-31 00:00:00,Non Manager
-05228625,Unit People Planning Specialist,2022-04-01,9999-12-31 00:00:00,Non Manager
-05229977,Customer Relations Co-worker,2014-11-15,9999-12-31 00:00:00,Non Manager
-05230506,Goods Flow Co-worker,2021-12-01,9999-12-31 00:00:00,Non Manager
-05232704,Customer Relations Co-worker,2022-01-01,9999-12-31 00:00:00,Non Manager
-05233446,Customer Relations Co-worker,2010-02-01,9999-12-31 00:00:00,Non Manager
-05234317,Customer Relations Co-worker,2021-03-15,9999-12-31 00:00:00,Non Manager
-05235543,Goods Flow Co-worker,2004-04-01,9999-12-31 00:00:00,Non Manager
-05239086,IF Bistro & Sweden Shop Co-worker,2003-06-01,2022-02-28 00:00:00,Non Manager
-05239086,Customer Relations Co-worker,2022-03-01,9999-12-31 00:00:00,Non Manager
-05239458,Goods Flow Co-worker,2009-05-15,9999-12-31 00:00:00,Non Manager
-05240432,Customer Relations Co-worker,2022-06-01,9999-12-31 00:00:00,Non Manager
-05248554,Goods Flow Co-worker,2020-07-01,9999-12-31 00:00:00,Non Manager
-05251023,Goods Flow Co-worker,2021-08-01,9999-12-31 00:00:00,Non Manager
-05252328,Graphic Communication Leader,2021-09-01,9999-12-31 00:00:00,Non Manager
-05253659,Interior Design Co-worker,2022-10-15,9999-12-31 00:00:00,Non Manager
-05254513,Goods Flow Co-worker,2019-11-15,9999-12-31 00:00:00,Non Manager
-05258866,Goods Flow Co-worker,2011-12-01,9999-12-31 00:00:00,Non Manager
-05260802,Customer Relations Co-worker,2003-01-01,9999-12-31 00:00:00,Non Manager
-05261919,Goods Flow Co-worker,2023-02-01,9999-12-31 00:00:00,Non Manager
-05268953,Apprentice,2022-03-15,9999-12-31 00:00:00,Non Manager
-05270956,Sales Co-worker,2003-04-01,9999-12-31 00:00:00,Non Manager
-05275738,Apprentice,2023-05-15,9999-12-31 00:00:00,Non Manager
-05276101,Frontliner,2021-06-01,9999-12-31 00:00:00,Non Manager
-05277360,Market Manager,2004-07-01,9999-12-31 00:00:00,Manager
-05277833,IF Bistro & Sweden Shop Co-worker,2014-07-01,2023-04-30 00:00:00,Non Manager
-05277833,Sales Co-worker,2023-05-01,9999-12-31 00:00:00,Non Manager
-05283541,Sales Co-worker,2010-08-01,9999-12-31 00:00:00,Non Manager
-05284836,Customer Relations Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05289514,Business Navigator,2023-10-15,9999-12-31 00:00:00,Manager
-05293099,Sales Co-worker,2004-11-15,9999-12-31 00:00:00,Non Manager
-05293918,Apprentice,2023-12-01,9999-12-31 00:00:00,Non Manager
-05296271,IKEA Food Co-worker,2018-05-15,2023-03-31 00:00:00,Non Manager
-05296271,Sales Co-worker,2023-04-01,9999-12-31 00:00:00,Non Manager
-05296831,Sales Co-worker,2006-01-01,9999-12-31 00:00:00,Non Manager
-05298666,Sales Co-worker,2006-02-01,9999-12-31 00:00:00,Non Manager
-05299059,Safety & Security Specialist,2010-03-15,9999-12-31 00:00:00,Non Manager
-05299572,Sales Co-worker,2009-04-01,9999-12-31 00:00:00,Non Manager
-05301906,Commercial Activity Leader,2011-12-01,2023-05-31 00:00:00,Non Manager
-05301906,Visual Merchandising Manager,2023-06-01,9999-12-31 00:00:00,Manager
-05303515,Goods Flow Co-worker,2010-05-15,9999-12-31 00:00:00,Non Manager
-05305000,Goods Flow Co-worker,2021-06-01,9999-12-31 00:00:00,Non Manager
-05307886,Sales Co-worker,2022-07-01,9999-12-31 00:00:00,Non Manager
-05311843,Goods Flow Co-worker,2022-08-01,9999-12-31 00:00:00,Non Manager
-05321786,Sales Co-worker,2003-09-01,9999-12-31 00:00:00,Non Manager
-05322814,Goods Flow Co-worker,2019-10-15,9999-12-31 00:00:00,Non Manager
-05324033,Sales Co-worker,2012-11-15,9999-12-31 00:00:00,Non Manager
-05324091,Customer Relations Co-worker,2006-12-01,9999-12-31 00:00:00,Non Manager
-05324684,Customer Relations Co-worker,2001-01-01,9999-12-31 00:00:00,Non Manager
-05325981,Goods Flow Co-worker,2017-02-01,9999-12-31 00:00:00,Non Manager
-05327043,Administrator,2010-03-15,9999-12-31 00:00:00,Non Manager
-05327446,Sales Co-worker,2022-04-01,9999-12-31 00:00:00,Non Manager
-05331330,Carpenter Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05332807,IKEA Food Co-worker,2020-06-01,9999-12-31 00:00:00,Non Manager
-05338033,Customer Relations Co-worker,2003-07-01,9999-12-31 00:00:00,Non Manager
-05338580,Goods Flow Co-worker,2021-08-01,9999-12-31 00:00:00,Non Manager
-05338907,Sales Team Leader,2023-09-01,9999-12-31 00:00:00,Manager
-05339203,Sales Co-worker,2022-10-15,9999-12-31 00:00:00,Non Manager
-05341744,Sales Co-worker,2011-11-15,9999-12-31 00:00:00,Non Manager
-05342661,Sales Co-worker,2003-12-01,9999-12-31 00:00:00,Non Manager
-05342849,IKEA Food Co-worker,2020-01-01,9999-12-31 00:00:00,Non Manager
-05343779,Sales Co-worker,2011-02-01,9999-12-31 00:00:00,Non Manager
-05346022,Goods Flow Co-worker,2020-03-15,9999-12-31 00:00:00,Non Manager
-05346586,Goods Flow Co-worker,2023-04-01,9999-12-31 00:00:00,Non Manager
-05349621,Sales Co-worker,2023-05-15,9999-12-31 00:00:00,Non Manager
-05351764,Maintenance Co-worker,2020-06-01,9999-12-31 00:00:00,Non Manager
-05352941,Customer Relations Co-worker,2003-07-01,9999-12-31 00:00:00,Non Manager
-05352956,Graphic Communication Co-worker,2005-08-01,9999-12-31 00:00:00,Non Manager
-05358729,Sales Co-worker,2013-09-01,9999-12-31 00:00:00,Non Manager
-05366546,Goods Flow Co-worker,2019-10-15,9999-12-31 00:00:00,Non Manager
-05371750,Customer Services Team Manager,2011-11-15,9999-12-31 00:00:00,Manager
-05373619,Goods Flow Co-worker,2008-12-01,9999-12-31 00:00:00,Non Manager
-05382208,Sales Co-worker,2022-01-01,9999-12-31 00:00:00,Non Manager
-05382391,Goods Flow Co-worker,2019-02-01,9999-12-31 00:00:00,Non Manager
-05382902,IKEA for Business Specialist,2022-03-15,9999-12-31 00:00:00,Non Manager
-05387528,IKEA Food Co-worker,2020-04-01,9999-12-31 00:00:00,Non Manager
-05387570,Customer Relations Co-worker,2013-05-15,9999-12-31 00:00:00,Non Manager
-05389144,Customer Relations Co-worker,2003-06-01,9999-12-31 00:00:00,Non Manager
-05390442,Goods Flow Co-worker,2021-07-01,9999-12-31 00:00:00,Non Manager
-05394043,Sales Co-worker,2021-08-01,9999-12-31 00:00:00,Non Manager
-05395305,Goods Flow Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05396352,Sales Co-worker,2023-10-15,9999-12-31 00:00:00,Non Manager
-05396750,Customer Relations Co-worker,2009-11-15,9999-12-31 00:00:00,Non Manager
-05399077,Goods Flow Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05399189,IF Team Leader,2019-01-01,9999-12-31 00:00:00,Manager
-05399693,Sales Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05402501,Sales Co-worker,2023-03-15,9999-12-31 00:00:00,Non Manager
-05403788,IKEA Food Co-worker,2022-02-01,2023-11-30 00:00:00,Non Manager
-05403788,Goods Flow Co-worker,2023-12-01,9999-12-31 00:00:00,Non Manager
-05404389,Customer Relations Co-worker,2009-04-01,9999-12-31 00:00:00,Non Manager
-05405425,Sales Co-worker,2023-05-15,9999-12-31 00:00:00,Non Manager
-05407676,Customer Relations Co-worker,2022-06-01,9999-12-31 00:00:00,Non Manager
-05411597,IKEA Food Co-worker,2019-07-01,9999-12-31 00:00:00,Non Manager
-05411647,Customer Relations Co-worker,2003-08-01,9999-12-31 00:00:00,Non Manager
-05413727,Checkout Coworker IKEA FOOD,2011-09-01,9999-12-31 00:00:00,Non Manager
-05416221,Goods Flow Co-worker,2023-10-15,9999-12-31 00:00:00,Non Manager
-05417733,Visual Merchandising/Activity Co-worker,2018-11-15,9999-12-31 00:00:00,Non Manager
-05417998,Goods Flow Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05419416,IKEA Food Co-worker,1990-01-01,9999-12-31 00:00:00,Non Manager
-05419786,Customer Relations Co-worker,2020-02-01,9999-12-31 00:00:00,Non Manager
-05421383,Goods Flow Co-worker,2003-03-15,9999-12-31 00:00:00,Non Manager
-05424190,Customer Relations Co-worker,1995-04-01,9999-12-31 00:00:00,Non Manager
-05424236,IKEA Food Co-worker,2018-05-15,9999-12-31 00:00:00,Non Manager
-05424853,IKEA Food Co-worker,2020-06-01,9999-12-31 00:00:00,Non Manager
-05425786,Sales Co-worker,2021-07-01,9999-12-31 00:00:00,Non Manager
-05428117,Sales Co-worker,2003-08-01,9999-12-31 00:00:00,Non Manager
-05434979,Sales Co-worker,2003-09-01,9999-12-31 00:00:00,Non Manager
-05435691,Sales Co-worker,1993-10-15,9999-12-31 00:00:00,Non Manager
-05439742,Sales Co-worker,2023-11-15,9999-12-31 00:00:00,Non Manager
-05441613,Sales Co-worker,1993-12-01,9999-12-31 00:00:00,Non Manager
-05442251,Graphic Communication Co-worker,2016-01-01,9999-12-31 00:00:00,Non Manager
-05442380,Customer Relations Co-worker,2011-02-01,9999-12-31 00:00:00,Non Manager
-05442664,Sales Co-worker,2017-03-15,9999-12-31 00:00:00,Non Manager
-05443928,Goods Flow Co-worker,2020-04-01,9999-12-31 00:00:00,Non Manager
-05445338,Visual Merchandising/Activity Co-worker,2010-05-15,9999-12-31 00:00:00,Non Manager
-05445737,Goods Flow Co-worker,2016-06-01,9999-12-31 00:00:00,Non Manager
-05451597,Customer Relations Co-worker,2012-07-01,9999-12-31 00:00:00,Non Manager
-05455009,Sales Team Leader,2023-08-01,9999-12-31 00:00:00,Manager
-05459340,Sales Co-worker,1986-09-01,9999-12-31 00:00:00,Non Manager
-05459415,Goods Flow Co-worker,2022-10-15,9999-12-31 00:00:00,Non Manager
-05461142,Controller,2003-11-15,9999-12-31 00:00:00,Non Manager
-05462528,Sales Co-worker,2003-12-01,9999-12-31 00:00:00,Non Manager
-05463228,IKEA Food Manager,1999-01-01,9999-12-31 00:00:00,Manager
-05463710,Goods Flow Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05468197,Goods Flow Co-worker,2018-03-15,9999-12-31 00:00:00,Non Manager
-05474733,Sales Co-worker,2022-04-01,9999-12-31 00:00:00,Non Manager
-05478035,IKEA Food Co-worker,2020-05-15,9999-12-31 00:00:00,Non Manager
-05482760,Customer Relations Co-worker,2021-06-01,9999-12-31 00:00:00,Non Manager
-05483236,Deputy Logistics Manager,2015-07-01,9999-12-31 00:00:00,Manager
-05485221,Sales Co-worker,2008-08-01,9999-12-31 00:00:00,Non Manager
-05485458,Customer Relations Co-worker,2007-09-01,9999-12-31 00:00:00,Non Manager
-05487164,Goods Flow Co-worker,2022-10-15,9999-12-31 00:00:00,Non Manager
-05493683,Apprentice,2022-11-15,9999-12-31 00:00:00,Non Manager
-05493857,Customer Relations Co-worker,2000-12-01,9999-12-31 00:00:00,Non Manager
-05495936,Sales Co-worker,2002-04-01,9999-12-31 00:00:00,Non Manager
-05495968,Unit People Planning Specialist,2004-05-15,9999-12-31 00:00:00,Non Manager
-05498437,Sales & Supply Support Specialist,2004-06-01,9999-12-31 00:00:00,Non Manager
-05499953,Goods Flow Co-worker,2015-07-01,9999-12-31 00:00:00,Non Manager
-05501585,Goods Flow Co-worker,2022-08-01,9999-12-31 00:00:00,Non Manager
-05502272,Customer Relations Co-worker,2006-09-01,9999-12-31 00:00:00,Non Manager
-05503401,Recovery Co-worker,2010-10-15,9999-12-31 00:00:00,Non Manager
-05505843,Goods Flow Co-worker,2021-11-15,9999-12-31 00:00:00,Non Manager
-05509569,Goods Flow Co-worker,2023-12-01,9999-12-31 00:00:00,Non Manager
-05514951,Sales Co-worker,1994-01-01,9999-12-31 00:00:00,Non Manager
-05517635,Customer Relations Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05518619,Unit People Planning Specialist,2008-03-15,9999-12-31 00:00:00,Non Manager
-05518676,Customer Relations Co-worker,2023-04-01,9999-12-31 00:00:00,Non Manager
-05520629,Customer Relations Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05522320,IKEA Food Co-worker,2022-03-01,2023-10-31 00:00:00,Non Manager
-05522320,Goods Flow Co-worker,2023-11-01,9999-12-31 00:00:00,Non Manager
-05522642,IF Team Leader,2019-06-01,9999-12-31 00:00:00,Manager
-05531027,Communication & Interior Design Manager,2001-07-01,9999-12-31 00:00:00,Manager
-05536344,Sales Co-worker,2010-08-01,9999-12-31 00:00:00,Non Manager
-05539227,Sales Co-worker,2003-09-01,9999-12-31 00:00:00,Non Manager
-05539757,Sales Co-worker,1988-10-15,9999-12-31 00:00:00,Non Manager
-05543305,IKEA Food Co-worker,2018-11-15,9999-12-31 00:00:00,Non Manager
-05543950,Goods Flow Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05544709,Goods Flow Co-worker,2022-01-01,9999-12-31 00:00:00,Non Manager
-05545319,IKEA Food Co-worker,2022-01-15,2023-10-31 00:00:00,Non Manager
-05545319,Sales Co-worker,2023-11-01,9999-12-31 00:00:00,Non Manager
-05547587,Goods Flow Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05548513,Checkout Coworker IKEA FOOD,2011-03-15,9999-12-31 00:00:00,Non Manager
-05552527,Customer Relations Co-worker,2018-04-01,9999-12-31 00:00:00,Non Manager
-05559067,Sales Co-worker,2019-02-01,2023-06-30 00:00:00,Non Manager
-05559067,Sales Team Leader,2023-07-01,9999-12-31 00:00:00,Manager
-05560924,Customer Relations Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05564451,Goods Flow Team Leader,2020-06-01,9999-12-31 00:00:00,Manager
-05564925,Carpenter Co-worker,2022-07-01,9999-12-31 00:00:00,Non Manager
-05568428,Goods Flow Co-worker,2023-08-01,9999-12-31 00:00:00,Non Manager
-05572636,Sales Co-worker,2020-09-01,9999-12-31 00:00:00,Non Manager
-05573599,Goods Flow Co-worker,2003-10-15,9999-12-31 00:00:00,Non Manager
-05574614,Customer Relations Co-worker,2000-11-15,9999-12-31 00:00:00,Non Manager
-05574924,IKEA Food Co-worker,2015-05-01,2023-04-30 00:00:00,Non Manager
-05574924,Sales & Supply Support Specialist,2023-05-01,9999-12-31 00:00:00,Non Manager
-05575225,Goods Flow Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05576476,Sales Co-worker,2022-02-01,2023-11-30 00:00:00,Non Manager
-05576476,Sales Team Leader,2023-12-01,9999-12-31 00:00:00,Manager
-05579977,Sales Co-worker,2019-01-01,9999-12-31 00:00:00,Non Manager
-05580364,Goods Flow Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05584941,Customer Relations Co-worker,2003-03-15,9999-12-31 00:00:00,Non Manager
-05585003,Sales Co-worker,1981-04-01,9999-12-31 00:00:00,Non Manager
-05586415,Customer Relations Co-worker,2023-05-15,9999-12-31 00:00:00,Non Manager
-05587088,Customer Relations Co-worker,2009-06-01,9999-12-31 00:00:00,Non Manager
-05587364,Goods Flow Co-worker,2021-07-01,9999-12-31 00:00:00,Non Manager
-05592670,Sales Co-worker,2020-08-01,9999-12-31 00:00:00,Non Manager
-05595236,IF Team Leader,2016-04-01,2022-08-31 00:00:00,Manager
-05595236,Sales Team Leader,2022-09-01,9999-12-31 00:00:00,Manager
-05597984,Visual Merchandising/Activity Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05604330,Sales Team Leader,2022-10-15,9999-12-31 00:00:00,Manager
-05606541,Sales Co-worker,2002-11-15,9999-12-31 00:00:00,Non Manager
-05607012,Furniture Builder,2003-12-01,9999-12-31 00:00:00,Non Manager
-05607529,Sales Co-worker,2003-01-01,9999-12-31 00:00:00,Non Manager
-05608877,Sales Co-worker,2002-09-01,2022-07-31 00:00:00,Non Manager
-05608877,Goods Flow Team Leader,2022-08-01,9999-12-31 00:00:00,Manager
-05609476,Sales Co-worker,2020-02-01,9999-12-31 00:00:00,Non Manager
-05611846,Customer Services Manager,1997-03-15,9999-12-31 00:00:00,Manager
-05612461,Interior Design Co-worker,2018-04-01,9999-12-31 00:00:00,Non Manager
-05613966,Sales & Supply Support Manager,2012-05-15,9999-12-31 00:00:00,Manager
-05616440,Goods Flow Co-worker,2022-06-01,9999-12-31 00:00:00,Non Manager
-05618326,Goods Flow Co-worker,2020-07-01,9999-12-31 00:00:00,Non Manager
-05618679,Deputy Sales Manager,2018-08-01,9999-12-31 00:00:00,Manager
-05621503,Sales Co-worker,2023-09-01,9999-12-31 00:00:00,Non Manager
-05621984,Sales Co-worker,2006-10-15,9999-12-31 00:00:00,Non Manager
-05622244,Sales Co-worker,2003-11-15,9999-12-31 00:00:00,Non Manager
-05622487,Goods Flow Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05626247,Customer Relations Co-worker,2003-01-01,9999-12-31 00:00:00,Non Manager
-05633130,Sales Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05636866,Goods Flow Co-worker,2001-03-15,9999-12-31 00:00:00,Non Manager
-05637269,Customer Relations Co-worker,2022-04-01,9999-12-31 00:00:00,Non Manager
-05637391,Sales Co-worker,2020-05-15,9999-12-31 00:00:00,Non Manager
-05638026,Recovery Co-worker,2010-02-15,2022-04-30 00:00:00,Non Manager
-05638026,Recovery Team Leader,2022-05-01,9999-12-31 00:00:00,Manager
-05638576,Apprentice,2023-06-01,9999-12-31 00:00:00,Non Manager
-05639654,Customer Relations Co-worker,2000-07-01,9999-12-31 00:00:00,Non Manager
-05643690,Sales Co-worker,2022-08-01,9999-12-31 00:00:00,Non Manager
-05643994,Goods Flow Co-worker,2021-09-01,9999-12-31 00:00:00,Non Manager
-05645803,Goods Flow Co-worker,2021-10-15,9999-12-31 00:00:00,Non Manager
-05646905,Sales Co-worker,1981-11-15,9999-12-31 00:00:00,Non Manager
-05649642,Sales Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05651159,Customer Relations Co-worker,2018-01-01,9999-12-31 00:00:00,Non Manager
-05651277,IKEA Food Co-worker,2007-12-01,2023-02-28 00:00:00,Non Manager
-05651277,Customer Relations Co-worker,2023-03-01,9999-12-31 00:00:00,Non Manager
-05652643,Goods Flow Co-worker,2023-02-01,9999-12-31 00:00:00,Non Manager
-05652775,Customer Services Team Manager,2017-03-15,9999-12-31 00:00:00,Manager
-05653738,Goods Flow Team Leader,2009-04-01,9999-12-31 00:00:00,Manager
-05655226,IKEA Food Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05657057,Customer Relations Co-worker,2004-06-01,9999-12-31 00:00:00,Non Manager
-05658193,Sales Co-worker,2021-07-01,9999-12-31 00:00:00,Non Manager
-05666500,IF Team Leader,2020-05-15,2023-08-31 00:00:00,Manager
-05666500,Customer Services Team Manager,2023-09-01,9999-12-31 00:00:00,Manager
-05667157,Customer Relations Co-worker,1992-08-01,9999-12-31 00:00:00,Non Manager
-05669351,Customer Relations Co-worker,2018-09-01,9999-12-31 00:00:00,Non Manager
-05671873,Goods Flow Co-worker,2020-10-15,9999-12-31 00:00:00,Non Manager
-05673028,Sales Co-worker,1993-11-15,9999-12-31 00:00:00,Non Manager
-05673067,Graphic Communication Co-worker,2012-12-01,9999-12-31 00:00:00,Non Manager
-05674230,Customer Relations Co-worker,2003-01-01,9999-12-31 00:00:00,Non Manager
-05674738,Customer Relations Co-worker,2003-02-01,9999-12-31 00:00:00,Non Manager
-05675951,Goods Flow Co-worker,2023-03-15,9999-12-31 00:00:00,Non Manager
-05676582,Sales Co-worker,2022-04-01,9999-12-31 00:00:00,Non Manager
-05677363,Sales Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05678637,IF Bistro & Sweden Shop Co-worker,2012-11-01,2023-01-31 00:00:00,Non Manager
-05678637,Sales Co-worker,2023-02-01,9999-12-31 00:00:00,Non Manager
-05682780,IKEA Food Co-worker,2020-06-01,9999-12-31 00:00:00,Non Manager
-05686733,Checkout Coworker IKEA FOOD,2004-10-15,2022-12-31 00:00:00,Non Manager
-05686733,Customer Relations Co-worker,2023-01-01,9999-12-31 00:00:00,Non Manager
-05689869,Sales Co-worker,2020-07-01,9999-12-31 00:00:00,Non Manager
-05689904,Sales Co-worker,2003-08-01,9999-12-31 00:00:00,Non Manager
-05691522,Goods Flow Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05691889,Goods Flow Co-worker,2021-10-15,9999-12-31 00:00:00,Non Manager
-05692292,Sales Co-worker,2003-11-15,9999-12-31 00:00:00,Non Manager
-05694083,Sales Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05695052,Goods Flow Co-worker,2022-01-01,9999-12-31 00:00:00,Non Manager
-05696549,Com & In Co-worker,2020-03-15,2023-09-30 00:00:00,Non Manager
-05696549,Interior Design Co-worker,2023-10-01,9999-12-31 00:00:00,Non Manager
-05697392,Sales Co-worker,2018-02-01,9999-12-31 00:00:00,Non Manager
-05700986,Sales Co-worker,2022-03-15,9999-12-31 00:00:00,Non Manager
-05703851,Sales Co-worker,2001-04-01,9999-12-31 00:00:00,Non Manager
-05704335,Goods Flow Co-worker,2017-05-15,9999-12-31 00:00:00,Non Manager
-05706623,Checkout Coworker IKEA FOOD,2021-06-01,9999-12-31 00:00:00,Non Manager
-05707074,Sales Co-worker,2003-01-01,2022-08-31 00:00:00,Non Manager
-05707074,Commercial Activity Leader,2022-09-01,9999-12-31 00:00:00,Non Manager
-05711107,Customer Relations Co-worker,2021-07-01,9999-12-31 00:00:00,Non Manager
-05712015,Sales Co-worker,2023-08-01,9999-12-31 00:00:00,Non Manager
-05712050,Goods Flow Co-worker,2023-09-01,9999-12-31 00:00:00,Non Manager
-05713467,Goods Flow Co-worker,2017-10-15,9999-12-31 00:00:00,Non Manager
-05714048,Sales Co-worker,2003-11-15,9999-12-31 00:00:00,Non Manager
-05715389,Sales Co-worker,2003-12-01,9999-12-31 00:00:00,Non Manager
-05717761,IKEA Food Co-worker,2020-01-01,9999-12-31 00:00:00,Non Manager
-05718731,Sales & Supply Support Specialist,2014-02-01,9999-12-31 00:00:00,Non Manager
-05722807,Recovery Co-worker,2020-03-15,9999-12-31 00:00:00,Non Manager
-05723589,Goods Flow Co-worker,2014-04-01,9999-12-31 00:00:00,Non Manager
-05725626,Checkout Coworker IKEA FOOD,2003-06-01,2023-02-28 00:00:00,Non Manager
-05725626,Customer Relations Co-worker,2023-03-01,9999-12-31 00:00:00,Non Manager
-05725899,Sales Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05728062,Customer Services Team Manager,2020-06-01,9999-12-31 00:00:00,Manager
-05731266,Sales Co-worker,2009-07-01,9999-12-31 00:00:00,Non Manager
-05732882,Sales Co-worker,2006-08-01,9999-12-31 00:00:00,Non Manager
-05733791,Customer Relations Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05737414,Goods Flow Co-worker,2006-10-15,9999-12-31 00:00:00,Non Manager
-05739111,Logistics Manager,2006-11-15,9999-12-31 00:00:00,Manager
-05739885,Sales Co-worker,2003-12-01,9999-12-31 00:00:00,Non Manager
-05740339,Goods Flow Co-worker,2022-01-01,9999-12-31 00:00:00,Non Manager
-05741602,IKEA Food Co-worker,2021-04-01,2023-05-31 00:00:00,Non Manager
-05741602,Customer Relations Co-worker,2023-06-01,9999-12-31 00:00:00,Non Manager
-05742894,Frontliner,2019-02-01,9999-12-31 00:00:00,Non Manager
-05744553,Goods Flow Co-worker,2022-03-15,9999-12-31 00:00:00,Non Manager
-05745153,Customer Relations Co-worker,2003-04-01,9999-12-31 00:00:00,Non Manager
-05745379,Goods Flow Co-worker,2006-05-15,9999-12-31 00:00:00,Non Manager
-05746525,Sales Co-worker,2010-06-01,9999-12-31 00:00:00,Non Manager
-05754826,Customer Relations Co-worker,2009-07-01,9999-12-31 00:00:00,Non Manager
-05755527,Goods Flow Co-worker,2022-08-01,9999-12-31 00:00:00,Non Manager
-05761147,Goods Flow Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05761652,Apprentice,2022-10-15,9999-12-31 00:00:00,Non Manager
-05767078,IF Bistro & Sweden Shop Co-worker,2012-11-15,9999-12-31 00:00:00,Non Manager
-05769429,Sales Co-worker,2007-12-01,9999-12-31 00:00:00,Non Manager
-05770839,Customer Relations Co-worker,2018-01-01,9999-12-31 00:00:00,Non Manager
-05771604,Customer Relations Co-worker,2016-02-01,9999-12-31 00:00:00,Non Manager
-05773378,Goods Flow Co-worker,2010-03-15,9999-12-31 00:00:00,Non Manager
-05773511,Visual Merchandising/Activity Co-worker,2018-04-01,9999-12-31 00:00:00,Non Manager
-05773726,Sales Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05778304,Goods Flow Co-worker,2023-06-01,9999-12-31 00:00:00,Non Manager
-05778840,Frontliner,2020-07-01,9999-12-31 00:00:00,Non Manager
-05779550,Sales Co-worker,2022-08-01,9999-12-31 00:00:00,Non Manager
-05780861,Recovery Co-worker,2010-09-01,9999-12-31 00:00:00,Non Manager
-05783562,Goods Flow Co-worker,2012-10-15,9999-12-31 00:00:00,Non Manager
-05784849,Goods Flow Co-worker,2021-11-15,9999-12-31 00:00:00,Non Manager
-05787816,Visual Merchandising/Activity Co-worker,2011-12-01,9999-12-31 00:00:00,Non Manager
-05789155,IKEA Food Co-worker,2004-01-01,9999-12-31 00:00:00,Non Manager
-05790920,IKEA Food Co-worker,2011-02-01,9999-12-31 00:00:00,Non Manager
-05791872,Sales Team Leader,2018-03-15,9999-12-31 00:00:00,Manager
-05793940,Checkout Coworker IKEA FOOD,2004-04-01,9999-12-31 00:00:00,Non Manager
-05794336,Customer Relations Co-worker,2003-05-15,9999-12-31 00:00:00,Non Manager
-05795223,Recovery Co-worker,2003-06-01,9999-12-31 00:00:00,Non Manager
-05795533,Sales Co-worker,2022-07-01,9999-12-31 00:00:00,Non Manager
-05798442,IKEA Food Co-worker,2022-08-01,9999-12-31 00:00:00,Non Manager
-05798546,Goods Flow Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05802234,Goods Flow Co-worker,2023-10-15,9999-12-31 00:00:00,Non Manager
-05807638,Sales Co-worker,2022-11-15,9999-12-31 00:00:00,Non Manager
-05808648,Sales Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05811209,Sales Manager,2006-01-01,9999-12-31 00:00:00,Manager
-05811943,Interior Design Co-worker,2018-02-01,9999-12-31 00:00:00,Non Manager
-05818583,Goods Flow Co-worker,2022-03-15,9999-12-31 00:00:00,Non Manager
-05818633,Customer Relations Co-worker,2022-04-01,9999-12-31 00:00:00,Non Manager
-05819312,Sales Team Leader,2022-05-15,9999-12-31 00:00:00,Manager
-05822014,Sales Co-worker,2018-06-01,9999-12-31 00:00:00,Non Manager
-05832047,Sales Co-worker,2022-07-01,9999-12-31 00:00:00,Non Manager
-05836694,Customer Relations Co-worker,2021-08-01,9999-12-31 00:00:00,Non Manager
-05838230,Customer Relations Co-worker,2009-09-01,9999-12-31 00:00:00,Non Manager
-05840979,Goods Flow Co-worker,2022-10-15,9999-12-31 00:00:00,Non Manager
-05846476,Goods Flow Co-worker,2012-11-15,9999-12-31 00:00:00,Non Manager
-05849641,Goods Flow Co-worker,2020-12-01,9999-12-31 00:00:00,Non Manager
-05850058,Customer Relations Co-worker,2013-08-01,9999-12-31 00:00:00,Non Manager
-05850304,Sales Co-worker,2022-09-01,9999-12-31 00:00:00,Non Manager
-05853378,IKEA Food Co-worker,2014-10-15,9999-12-31 00:00:00,Non Manager
-05856793,Goods Flow Co-worker,2022-11-15,9999-12-31 00:00:00,Non Manager
-05857799,Recovery Co-worker,2017-12-01,9999-12-31 00:00:00,Non Manager
-05863363,Customer Relations Co-worker,2022-01-01,9999-12-31 00:00:00,Non Manager
-05864095,Sales Co-worker,2007-02-01,9999-12-31 00:00:00,Non Manager
-05864284,Recovery Co-worker,2003-03-15,9999-12-31 00:00:00,Non Manager
-05865718,Frontliner,2011-04-01,9999-12-31 00:00:00,Non Manager
-05866188,Goods Flow Co-worker,2000-05-15,9999-12-31 00:00:00,Non Manager
-05870106,Frontliner,2003-06-01,9999-12-31 00:00:00,Non Manager
-05876638,Goods Flow Co-worker,2022-07-01,9999-12-31 00:00:00,Non Manager
-05876831,Sales Co-worker,2010-09-01,2023-05-31 00:00:00,Non Manager
-05876831,IKEA for Business Specialist,2023-06-01,9999-12-31 00:00:00,Non Manager
-05882257,Customer Relations Co-worker,2005-08-01,9999-12-31 00:00:00,Non Manager
-05885098,Sales Co-worker,2002-09-01,9999-12-31 00:00:00,Non Manager
-05889239,Goods Flow Co-worker,2010-10-15,9999-12-31 00:00:00,Non Manager
-05889649,Furniture Builder,2007-11-15,9999-12-31 00:00:00,Non Manager
-05890478,Sales Co-worker,2007-12-01,9999-12-31 00:00:00,Non Manager
-05891532,Sales Co-worker,2004-01-01,9999-12-31 00:00:00,Non Manager
-05893083,Sales Co-worker,2022-02-01,9999-12-31 00:00:00,Non Manager
-05895615,Maintenance Co-worker,2005-03-15,9999-12-31 00:00:00,Non Manager
-05897607,Sales Co-worker,1981-04-01,9999-12-31 00:00:00,Non Manager
-05898972,Goods Flow Co-worker,2007-05-15,9999-12-31 00:00:00,Non Manager
-05901600,Sales Co-worker,1990-06-01,9999-12-31 00:00:00,Non Manager
-05903370,Recovery Co-worker,1997-07-01,9999-12-31 00:00:00,Non Manager
-05907157,IKEA Food Co-worker,2016-08-01,9999-12-31 00:00:00,Non Manager
-05914318,Sales Co-worker,2019-09-01,9999-12-31 00:00:00,Non Manager
-05916268,IKEA Food Co-worker,2022-03-15,2023-08-31 00:00:00,Non Manager
-05916268,Customer Relations Co-worker,2023-09-01,9999-12-31 00:00:00,Non Manager
-05916397,Goods Flow Co-worker,2020-10-15,9999-12-31 00:00:00,Non Manager
-05918631,Sales Co-worker,2002-11-15,9999-12-31 00:00:00,Non Manager
-05918685,Unit People & Culture Manager,2005-12-01,9999-12-31 00:00:00,Manager
-05921822,Goods Flow Co-worker,2021-01-01,9999-12-31 00:00:00,Non Manager
-05924285,IKEA Food Co-worker,2020-01-01,2023-07-31 00:00:00,Non Manager
-05924285,Goods Flow Co-worker,2023-08-01,9999-12-31 00:00:00,Non Manager
-05926288,Goods Flow Co-worker,2021-02-01,9999-12-31 00:00:00,Non Manager
-05928381,Goods Flow Co-worker,2022-03-15,9999-12-31 00:00:00,Non Manager
-05933091,Sales Co-worker,2016-04-01,9999-12-31 00:00:00,Non Manager
-05936518,IKEA Food Co-worker,2020-02-01,2023-08-31 00:00:00,Non Manager
-05936518,Goods Flow Co-worker,2023-09-01,9999-12-31 00:00:00,Non Manager
-05940090,Sales Co-worker,2022-05-15,9999-12-31 00:00:00,Non Manager
-05942036,Goods Flow Co-worker,2020-06-01,9999-12-31 00:00:00,Non Manager
-05943974,Kitchen Production Specialist,2005-07-01,9999-12-31 00:00:00,Non Manager
-05944255,Visual Merchandising/Activity Co-worker,2010-08-01,9999-12-31 00:00:00,Non Manager
-05944398,Carpenter Co-worker,2003-09-01,9999-12-31 00:00:00,Non Manager
-05945011,Sales Co-worker,2022-10-15,9999-12-31 00:00:00,Non Manager
-05948121,Recovery Co-worker,2016-10-15,9999-12-31 00:00:00,Non Manager
-05948772,Customer Relations Co-worker,2022-11-15,9999-12-31 00:00:00,Non Manager
-05949063,Sales Co-worker,2003-12-01,9999-12-31 00:00:00,Non Manager
-05949118,Visual Merchandising/Activity Co-worker,2002-01-01,9999-12-31 00:00:00,Non Manager
-05950269,Sales Co-worker,2021-02-01,9999-12-31 00:00:00,Non Manager
-05951330,Goods Flow Co-worker,2022-03-15,9999-12-31 00:00:00,Non Manager
-05953118,Sales Co-worker,2018-04-01,9999-12-31 00:00:00,Non Manager
-05955592,Sales Co-worker,2010-05-15,9999-12-31 00:00:00,Non Manager
-05956537,Sales Co-worker,2022-06-01,9999-12-31 00:00:00,Non Manager
-05957211,IKEA Food Co-worker,2021-02-15,2023-09-30 00:00:00,Non Manager
-05957211,Goods Flow Co-worker,2023-10-01,9999-12-31 00:00:00,Non Manager
-05959259,IKEA Food Co-worker,2019-07-01,9999-12-31 00:00:00,Non Manager
-05959996,Sales Co-worker,2004-08-01,9999-12-31 00:00:00,Non Manager
-05968844,Logistics Manager,2016-09-01,9999-12-31 00:00:00,Manager
-05969066,Business Navigation Co-worker,2003-10-15,9999-12-31 00:00:00,Non Manager
-05971168,Sales Team Leader,2011-11-15,9999-12-31 00:00:00,Manager
-05972540,Sales Co-worker,2022-12-01,9999-12-31 00:00:00,Non Manager
-05977805,Sales Co-worker,2008-01-01,9999-12-31 00:00:00,Non Manager
-05983807,Sales Co-worker,2020-02-01,9999-12-31 00:00:00,Non Manager
-05985917,Checkout Coworker IKEA FOOD,2022-03-01,2023-11-30 00:00:00,Non Manager
-05985917,Goods Flow Co-worker,2023-12-01,9999-12-31 00:00:00,Non Manager
-05990766,Goods Flow Co-worker,2020-03-15,9999-12-31 00:00:00,Non Manager
-05991344,IKEA Food Co-worker,2019-04-01,9999-12-31 00:00:00,Non Manager
-05994400,Sales Co-worker,2021-05-15,9999-12-31 00:00:00,Non Manager
-05995755,Goods Flow Co-worker,2016-06-01,9999-12-31 00:00:00,Non Manager
-05999091,Goods Flow Co-worker,2019-05-01,2023-07-31 00:00:00,Non Manager
-05999091,Goods Flow Team Leader,2023-08-01,9999-12-31 00:00:00,Manager
-05999463,Goods Flow Co-worker,2010-05-01,2022-01-31 00:00:00,Non Manager
-05999463,Maintenance Technician,2022-02-01,9999-12-31 00:00:00,Non Manager
-05999553,Customer Relations Co-worker,2022-07-01,9999-12-31 00:00:00,Non Manager
+05100454,Customer Relations Co-worker,2011-01-01,9999-12-31,Non Manager
+05101515,IKEA Food Co-worker,2003-02-01,9999-12-31,Non Manager
+05102902,Customer Relations Co-worker,2007-03-15,9999-12-31,Non Manager
+05107330,Recovery Co-worker,2003-04-01,9999-12-31,Non Manager
+05108128,Sales Co-worker,2003-05-15,9999-12-31,Non Manager
+05109204,Customer Relations Co-worker,2011-06-01,9999-12-31,Non Manager
+05110021,Customer Relations Co-worker,2022-07-01,9999-12-31,Non Manager
+05110940,Frontliner,2017-08-01,9999-12-31,Non Manager
+05114441,IKEA Food Co-worker,2020-06-01,2023-09-30,Non Manager
+05114441,Goods Flow Co-worker,2023-10-01,9999-12-31,Non Manager
+05116882,Maintenance Co-worker,2010-09-01,9999-12-31,Non Manager
+05117750,Goods Flow Co-worker,2023-10-15,9999-12-31,Non Manager
+05118810,Goods Flow Co-worker,2021-11-15,9999-12-31,Non Manager
+05120475,Goods Flow Co-worker,2023-12-01,9999-12-31,Non Manager
+05123755,Sales Co-worker,2009-01-01,9999-12-31,Non Manager
+05125119,Frontliner,2007-02-01,9999-12-31,Non Manager
+05125391,Facility Management Manager,2012-03-15,9999-12-31,Manager
+05128141,Goods Flow Co-worker,2022-04-01,9999-12-31,Non Manager
+05132831,Sales Co-worker,2022-05-15,9999-12-31,Non Manager
+05133918,Kitchen Production Specialist,2019-08-01,9999-12-31,Non Manager
+05135604,Goods Flow Co-worker,2019-09-01,9999-12-31,Non Manager
+05137976,Goods Flow Co-worker,2021-02-15,2022-09-30,Non Manager
+05137976,Sales Co-worker,2022-10-01,9999-12-31,Non Manager
+05138352,Goods Flow Co-worker,2017-10-15,9999-12-31,Non Manager
+05140948,Sales Co-worker,2009-11-15,9999-12-31,Non Manager
+05141932,Sales Co-worker,2005-12-01,9999-12-31,Non Manager
+05144533,Goods Flow Co-worker,2022-01-01,9999-12-31,Non Manager
+05145671,Sales Co-worker,2022-02-01,9999-12-31,Non Manager
+05155554,Sales Co-worker,2003-03-15,9999-12-31,Non Manager
+05159639,Sales Team Leader,2020-04-01,9999-12-31,Manager
+05160311,Goods Flow Co-worker,2023-05-15,9999-12-31,Non Manager
+05161196,Sales Co-worker,2009-06-01,9999-12-31,Non Manager
+05163118,Customer Relations Co-worker,2003-07-01,9999-12-31,Non Manager
+05164065,Goods Flow Co-worker,2001-08-01,9999-12-31,Non Manager
+05164908,Goods Flow Co-worker,2020-09-01,9999-12-31,Non Manager
+05173887,Recovery Co-worker,2006-10-15,9999-12-31,Non Manager
+05178130,Checkout Coworker IKEA FOOD,2022-09-01,9999-12-31,Non Manager
+05179114,Sales Co-worker,2022-10-15,9999-12-31,Non Manager
+05183235,People & Culture Generalist,2021-11-15,9999-12-31,Non Manager
+05187625,Customer Relations Co-worker,2021-12-01,9999-12-31,Non Manager
+05190605,Goods Flow Co-worker,2021-01-01,9999-12-31,Non Manager
+05192661,Apprentice,2022-02-01,9999-12-31,Non Manager
+05192796,Customer Relations Co-worker,2012-03-15,9999-12-31,Non Manager
+05194452,IKEA Food Co-worker,2012-11-01,2022-12-31,Non Manager
+05194452,Customer Relations Co-worker,2023-01-01,9999-12-31,Non Manager
+05196068,Controller,2011-04-01,9999-12-31,Non Manager
+05196087,Goods Flow Co-worker,2022-05-15,9999-12-31,Non Manager
+05196612,Goods Flow Co-worker,2018-06-01,9999-12-31,Non Manager
+05196645,Sales Co-worker,1999-07-01,9999-12-31,Non Manager
+05201247,IF Bistro & Sweden Shop Co-worker,2003-08-01,9999-12-31,Non Manager
+05201259,IKEA Food Co-worker,2004-09-01,9999-12-31,Non Manager
+05201467,People & Culture Generalist,2018-10-15,9999-12-31,Non Manager
+05208835,Goods Flow Co-worker,2016-11-15,9999-12-31,Non Manager
+05209918,Goods Flow Co-worker,2022-12-01,9999-12-31,Non Manager
+05210010,Frontliner,2021-01-01,9999-12-31,Non Manager
+05210686,IF Team Leader,2016-11-15,2023-01-31,Manager
+05210686,Sales Team Leader,2023-02-01,9999-12-31,Manager
+05214681,Customer Relations Co-worker,2023-02-01,9999-12-31,Non Manager
+05214902,Sales Co-worker,2012-03-15,9999-12-31,Non Manager
+05214979,Commercial Activity Leader,2015-04-01,9999-12-31,Non Manager
+05215842,Goods Flow Co-worker,2021-05-15,9999-12-31,Non Manager
+05216737,Interior Design Manager,2010-06-01,9999-12-31,Manager
+05219068,Goods Flow Co-worker,1991-07-01,9999-12-31,Non Manager
+05219455,Goods Flow Co-worker,2023-08-01,9999-12-31,Non Manager
+05223721,Interior Design Co-worker,1981-09-01,9999-12-31,Non Manager
+05227315,Goods Flow Co-worker,2023-10-15,9999-12-31,Non Manager
+05228625,Sales Co-worker,2006-03-15,2022-03-31,Non Manager
+05228625,Unit People Planning Specialist,2022-04-01,9999-12-31,Non Manager
+05229977,Customer Relations Co-worker,2014-11-15,9999-12-31,Non Manager
+05230506,Goods Flow Co-worker,2021-12-01,9999-12-31,Non Manager
+05232704,Customer Relations Co-worker,2022-01-01,9999-12-31,Non Manager
+05233446,Customer Relations Co-worker,2010-02-01,9999-12-31,Non Manager
+05234317,Customer Relations Co-worker,2021-03-15,9999-12-31,Non Manager
+05235543,Goods Flow Co-worker,2004-04-01,9999-12-31,Non Manager
+05239086,IF Bistro & Sweden Shop Co-worker,2003-06-01,2022-02-28,Non Manager
+05239086,Customer Relations Co-worker,2022-03-01,9999-12-31,Non Manager
+05239458,Goods Flow Co-worker,2009-05-15,9999-12-31,Non Manager
+05240432,Customer Relations Co-worker,2022-06-01,9999-12-31,Non Manager
+05248554,Goods Flow Co-worker,2020-07-01,9999-12-31,Non Manager
+05251023,Goods Flow Co-worker,2021-08-01,9999-12-31,Non Manager
+05252328,Graphic Communication Leader,2021-09-01,9999-12-31,Non Manager
+05253659,Interior Design Co-worker,2022-10-15,9999-12-31,Non Manager
+05254513,Goods Flow Co-worker,2019-11-15,9999-12-31,Non Manager
+05258866,Goods Flow Co-worker,2011-12-01,9999-12-31,Non Manager
+05260802,Customer Relations Co-worker,2003-01-01,9999-12-31,Non Manager
+05261919,Goods Flow Co-worker,2023-02-01,9999-12-31,Non Manager
+05268953,Apprentice,2022-03-15,9999-12-31,Non Manager
+05270956,Sales Co-worker,2003-04-01,9999-12-31,Non Manager
+05275738,Apprentice,2023-05-15,9999-12-31,Non Manager
+05276101,Frontliner,2021-06-01,9999-12-31,Non Manager
+05277360,Market Manager,2004-07-01,9999-12-31,Manager
+05277833,IF Bistro & Sweden Shop Co-worker,2014-07-01,2023-04-30,Non Manager
+05277833,Sales Co-worker,2023-05-01,9999-12-31,Non Manager
+05283541,Sales Co-worker,2010-08-01,9999-12-31,Non Manager
+05284836,Customer Relations Co-worker,2022-09-01,9999-12-31,Non Manager
+05289514,Business Navigator,2023-10-15,9999-12-31,Manager
+05293099,Sales Co-worker,2004-11-15,9999-12-31,Non Manager
+05293918,Apprentice,2023-12-01,9999-12-31,Non Manager
+05296271,IKEA Food Co-worker,2018-05-15,2023-03-31,Non Manager
+05296271,Sales Co-worker,2023-04-01,9999-12-31,Non Manager
+05296831,Sales Co-worker,2006-01-01,9999-12-31,Non Manager
+05298666,Sales Co-worker,2006-02-01,9999-12-31,Non Manager
+05299059,Safety & Security Specialist,2010-03-15,9999-12-31,Non Manager
+05299572,Sales Co-worker,2009-04-01,9999-12-31,Non Manager
+05301906,Commercial Activity Leader,2011-12-01,2023-05-31,Non Manager
+05301906,Visual Merchandising Manager,2023-06-01,9999-12-31,Manager
+05303515,Goods Flow Co-worker,2010-05-15,9999-12-31,Non Manager
+05305000,Goods Flow Co-worker,2021-06-01,9999-12-31,Non Manager
+05307886,Sales Co-worker,2022-07-01,9999-12-31,Non Manager
+05311843,Goods Flow Co-worker,2022-08-01,9999-12-31,Non Manager
+05321786,Sales Co-worker,2003-09-01,9999-12-31,Non Manager
+05322814,Goods Flow Co-worker,2019-10-15,9999-12-31,Non Manager
+05324033,Sales Co-worker,2012-11-15,9999-12-31,Non Manager
+05324091,Customer Relations Co-worker,2006-12-01,9999-12-31,Non Manager
+05324684,Customer Relations Co-worker,2001-01-01,9999-12-31,Non Manager
+05325981,Goods Flow Co-worker,2017-02-01,9999-12-31,Non Manager
+05327043,Administrator,2010-03-15,9999-12-31,Non Manager
+05327446,Sales Co-worker,2022-04-01,9999-12-31,Non Manager
+05331330,Carpenter Co-worker,2003-05-15,9999-12-31,Non Manager
+05332807,IKEA Food Co-worker,2020-06-01,9999-12-31,Non Manager
+05338033,Customer Relations Co-worker,2003-07-01,9999-12-31,Non Manager
+05338580,Goods Flow Co-worker,2021-08-01,9999-12-31,Non Manager
+05338907,Sales Team Leader,2023-09-01,9999-12-31,Manager
+05339203,Sales Co-worker,2022-10-15,9999-12-31,Non Manager
+05341744,Sales Co-worker,2011-11-15,9999-12-31,Non Manager
+05342661,Sales Co-worker,2003-12-01,9999-12-31,Non Manager
+05342849,IKEA Food Co-worker,2020-01-01,9999-12-31,Non Manager
+05343779,Sales Co-worker,2011-02-01,9999-12-31,Non Manager
+05346022,Goods Flow Co-worker,2020-03-15,9999-12-31,Non Manager
+05346586,Goods Flow Co-worker,2023-04-01,9999-12-31,Non Manager
+05349621,Sales Co-worker,2023-05-15,9999-12-31,Non Manager
+05351764,Maintenance Co-worker,2020-06-01,9999-12-31,Non Manager
+05352941,Customer Relations Co-worker,2003-07-01,9999-12-31,Non Manager
+05352956,Graphic Communication Co-worker,2005-08-01,9999-12-31,Non Manager
+05358729,Sales Co-worker,2013-09-01,9999-12-31,Non Manager
+05366546,Goods Flow Co-worker,2019-10-15,9999-12-31,Non Manager
+05371750,Customer Services Team Manager,2011-11-15,9999-12-31,Manager
+05373619,Goods Flow Co-worker,2008-12-01,9999-12-31,Non Manager
+05382208,Sales Co-worker,2022-01-01,9999-12-31,Non Manager
+05382391,Goods Flow Co-worker,2019-02-01,9999-12-31,Non Manager
+05382902,IKEA for Business Specialist,2022-03-15,9999-12-31,Non Manager
+05387528,IKEA Food Co-worker,2020-04-01,9999-12-31,Non Manager
+05387570,Customer Relations Co-worker,2013-05-15,9999-12-31,Non Manager
+05389144,Customer Relations Co-worker,2003-06-01,9999-12-31,Non Manager
+05390442,Goods Flow Co-worker,2021-07-01,9999-12-31,Non Manager
+05394043,Sales Co-worker,2021-08-01,9999-12-31,Non Manager
+05395305,Goods Flow Co-worker,2022-09-01,9999-12-31,Non Manager
+05396352,Sales Co-worker,2023-10-15,9999-12-31,Non Manager
+05396750,Customer Relations Co-worker,2009-11-15,9999-12-31,Non Manager
+05399077,Goods Flow Co-worker,2022-12-01,9999-12-31,Non Manager
+05399189,IF Team Leader,2019-01-01,9999-12-31,Manager
+05399693,Sales Co-worker,2022-02-01,9999-12-31,Non Manager
+05402501,Sales Co-worker,2023-03-15,9999-12-31,Non Manager
+05403788,IKEA Food Co-worker,2022-02-01,2023-11-30,Non Manager
+05403788,Goods Flow Co-worker,2023-12-01,9999-12-31,Non Manager
+05404389,Customer Relations Co-worker,2009-04-01,9999-12-31,Non Manager
+05405425,Sales Co-worker,2023-05-15,9999-12-31,Non Manager
+05407676,Customer Relations Co-worker,2022-06-01,9999-12-31,Non Manager
+05411597,IKEA Food Co-worker,2019-07-01,9999-12-31,Non Manager
+05411647,Customer Relations Co-worker,2003-08-01,9999-12-31,Non Manager
+05413727,Checkout Coworker IKEA FOOD,2011-09-01,9999-12-31,Non Manager
+05416221,Goods Flow Co-worker,2023-10-15,9999-12-31,Non Manager
+05417733,Visual Merchandising/Activity Co-worker,2018-11-15,9999-12-31,Non Manager
+05417998,Goods Flow Co-worker,2022-12-01,9999-12-31,Non Manager
+05419416,IKEA Food Co-worker,1990-01-01,9999-12-31,Non Manager
+05419786,Customer Relations Co-worker,2020-02-01,9999-12-31,Non Manager
+05421383,Goods Flow Co-worker,2003-03-15,9999-12-31,Non Manager
+05424190,Customer Relations Co-worker,1995-04-01,9999-12-31,Non Manager
+05424236,IKEA Food Co-worker,2018-05-15,9999-12-31,Non Manager
+05424853,IKEA Food Co-worker,2020-06-01,9999-12-31,Non Manager
+05425786,Sales Co-worker,2021-07-01,9999-12-31,Non Manager
+05428117,Sales Co-worker,2003-08-01,9999-12-31,Non Manager
+05434979,Sales Co-worker,2003-09-01,9999-12-31,Non Manager
+05435691,Sales Co-worker,1993-10-15,9999-12-31,Non Manager
+05439742,Sales Co-worker,2023-11-15,9999-12-31,Non Manager
+05441613,Sales Co-worker,1993-12-01,9999-12-31,Non Manager
+05442251,Graphic Communication Co-worker,2016-01-01,9999-12-31,Non Manager
+05442380,Customer Relations Co-worker,2011-02-01,9999-12-31,Non Manager
+05442664,Sales Co-worker,2017-03-15,9999-12-31,Non Manager
+05443928,Goods Flow Co-worker,2020-04-01,9999-12-31,Non Manager
+05445338,Visual Merchandising/Activity Co-worker,2010-05-15,9999-12-31,Non Manager
+05445737,Goods Flow Co-worker,2016-06-01,9999-12-31,Non Manager
+05451597,Customer Relations Co-worker,2012-07-01,9999-12-31,Non Manager
+05455009,Sales Team Leader,2023-08-01,9999-12-31,Manager
+05459340,Sales Co-worker,1986-09-01,9999-12-31,Non Manager
+05459415,Goods Flow Co-worker,2022-10-15,9999-12-31,Non Manager
+05461142,Controller,2003-11-15,9999-12-31,Non Manager
+05462528,Sales Co-worker,2003-12-01,9999-12-31,Non Manager
+05463228,IKEA Food Manager,1999-01-01,9999-12-31,Manager
+05463710,Goods Flow Co-worker,2022-02-01,9999-12-31,Non Manager
+05468197,Goods Flow Co-worker,2018-03-15,9999-12-31,Non Manager
+05474733,Sales Co-worker,2022-04-01,9999-12-31,Non Manager
+05478035,IKEA Food Co-worker,2020-05-15,9999-12-31,Non Manager
+05482760,Customer Relations Co-worker,2021-06-01,9999-12-31,Non Manager
+05483236,Deputy Logistics Manager,2015-07-01,9999-12-31,Manager
+05485221,Sales Co-worker,2008-08-01,9999-12-31,Non Manager
+05485458,Customer Relations Co-worker,2007-09-01,9999-12-31,Non Manager
+05487164,Goods Flow Co-worker,2022-10-15,9999-12-31,Non Manager
+05493683,Apprentice,2022-11-15,9999-12-31,Non Manager
+05493857,Customer Relations Co-worker,2000-12-01,9999-12-31,Non Manager
+05495936,Sales Co-worker,2002-04-01,9999-12-31,Non Manager
+05495968,Unit People Planning Specialist,2004-05-15,9999-12-31,Non Manager
+05498437,Sales & Supply Support Specialist,2004-06-01,9999-12-31,Non Manager
+05499953,Goods Flow Co-worker,2015-07-01,9999-12-31,Non Manager
+05501585,Goods Flow Co-worker,2022-08-01,9999-12-31,Non Manager
+05502272,Customer Relations Co-worker,2006-09-01,9999-12-31,Non Manager
+05503401,Recovery Co-worker,2010-10-15,9999-12-31,Non Manager
+05505843,Goods Flow Co-worker,2021-11-15,9999-12-31,Non Manager
+05509569,Goods Flow Co-worker,2023-12-01,9999-12-31,Non Manager
+05514951,Sales Co-worker,1994-01-01,9999-12-31,Non Manager
+05517635,Customer Relations Co-worker,2022-02-01,9999-12-31,Non Manager
+05518619,Unit People Planning Specialist,2008-03-15,9999-12-31,Non Manager
+05518676,Customer Relations Co-worker,2023-04-01,9999-12-31,Non Manager
+05520629,Customer Relations Co-worker,2003-05-15,9999-12-31,Non Manager
+05522320,IKEA Food Co-worker,2022-03-01,2023-10-31,Non Manager
+05522320,Goods Flow Co-worker,2023-11-01,9999-12-31,Non Manager
+05522642,IF Team Leader,2019-06-01,9999-12-31,Manager
+05531027,Communication & Interior Design Manager,2001-07-01,9999-12-31,Manager
+05536344,Sales Co-worker,2010-08-01,9999-12-31,Non Manager
+05539227,Sales Co-worker,2003-09-01,9999-12-31,Non Manager
+05539757,Sales Co-worker,1988-10-15,9999-12-31,Non Manager
+05543305,IKEA Food Co-worker,2018-11-15,9999-12-31,Non Manager
+05543950,Goods Flow Co-worker,2022-12-01,9999-12-31,Non Manager
+05544709,Goods Flow Co-worker,2022-01-01,9999-12-31,Non Manager
+05545319,IKEA Food Co-worker,2022-01-15,2023-10-31,Non Manager
+05545319,Sales Co-worker,2023-11-01,9999-12-31,Non Manager
+05547587,Goods Flow Co-worker,2022-02-01,9999-12-31,Non Manager
+05548513,Checkout Coworker IKEA FOOD,2011-03-15,9999-12-31,Non Manager
+05552527,Customer Relations Co-worker,2018-04-01,9999-12-31,Non Manager
+05559067,Sales Co-worker,2019-02-01,2023-06-30,Non Manager
+05559067,Sales Team Leader,2023-07-01,9999-12-31,Manager
+05560924,Customer Relations Co-worker,2003-05-15,9999-12-31,Non Manager
+05564451,Goods Flow Team Leader,2020-06-01,9999-12-31,Manager
+05564925,Carpenter Co-worker,2022-07-01,9999-12-31,Non Manager
+05568428,Goods Flow Co-worker,2023-08-01,9999-12-31,Non Manager
+05572636,Sales Co-worker,2020-09-01,9999-12-31,Non Manager
+05573599,Goods Flow Co-worker,2003-10-15,9999-12-31,Non Manager
+05574614,Customer Relations Co-worker,2000-11-15,9999-12-31,Non Manager
+05574924,IKEA Food Co-worker,2015-05-01,2023-04-30,Non Manager
+05574924,Sales & Supply Support Specialist,2023-05-01,9999-12-31,Non Manager
+05575225,Goods Flow Co-worker,2022-12-01,9999-12-31,Non Manager
+05576476,Sales Co-worker,2022-02-01,2023-11-30,Non Manager
+05576476,Sales Team Leader,2023-12-01,9999-12-31,Manager
+05579977,Sales Co-worker,2019-01-01,9999-12-31,Non Manager
+05580364,Goods Flow Co-worker,2022-02-01,9999-12-31,Non Manager
+05584941,Customer Relations Co-worker,2003-03-15,9999-12-31,Non Manager
+05585003,Sales Co-worker,1981-04-01,9999-12-31,Non Manager
+05586415,Customer Relations Co-worker,2023-05-15,9999-12-31,Non Manager
+05587088,Customer Relations Co-worker,2009-06-01,9999-12-31,Non Manager
+05587364,Goods Flow Co-worker,2021-07-01,9999-12-31,Non Manager
+05592670,Sales Co-worker,2020-08-01,9999-12-31,Non Manager
+05595236,IF Team Leader,2016-04-01,2022-08-31,Manager
+05595236,Sales Team Leader,2022-09-01,9999-12-31,Manager
+05597984,Visual Merchandising/Activity Co-worker,2022-09-01,9999-12-31,Non Manager
+05604330,Sales Team Leader,2022-10-15,9999-12-31,Manager
+05606541,Sales Co-worker,2002-11-15,9999-12-31,Non Manager
+05607012,Furniture Builder,2003-12-01,9999-12-31,Non Manager
+05607529,Sales Co-worker,2003-01-01,9999-12-31,Non Manager
+05608877,Sales Co-worker,2002-09-01,2022-07-31,Non Manager
+05608877,Goods Flow Team Leader,2022-08-01,9999-12-31,Manager
+05609476,Sales Co-worker,2020-02-01,9999-12-31,Non Manager
+05611846,Customer Services Manager,1997-03-15,9999-12-31,Manager
+05612461,Interior Design Co-worker,2018-04-01,9999-12-31,Non Manager
+05613966,Sales & Supply Support Manager,2012-05-15,9999-12-31,Manager
+05616440,Goods Flow Co-worker,2022-06-01,9999-12-31,Non Manager
+05618326,Goods Flow Co-worker,2020-07-01,9999-12-31,Non Manager
+05618679,Deputy Sales Manager,2018-08-01,9999-12-31,Manager
+05621503,Sales Co-worker,2023-09-01,9999-12-31,Non Manager
+05621984,Sales Co-worker,2006-10-15,9999-12-31,Non Manager
+05622244,Sales Co-worker,2003-11-15,9999-12-31,Non Manager
+05622487,Goods Flow Co-worker,2022-12-01,9999-12-31,Non Manager
+05626247,Customer Relations Co-worker,2003-01-01,9999-12-31,Non Manager
+05633130,Sales Co-worker,2022-02-01,9999-12-31,Non Manager
+05636866,Goods Flow Co-worker,2001-03-15,9999-12-31,Non Manager
+05637269,Customer Relations Co-worker,2022-04-01,9999-12-31,Non Manager
+05637391,Sales Co-worker,2020-05-15,9999-12-31,Non Manager
+05638026,Recovery Co-worker,2010-02-15,2022-04-30,Non Manager
+05638026,Recovery Team Leader,2022-05-01,9999-12-31,Manager
+05638576,Apprentice,2023-06-01,9999-12-31,Non Manager
+05639654,Customer Relations Co-worker,2000-07-01,9999-12-31,Non Manager
+05643690,Sales Co-worker,2022-08-01,9999-12-31,Non Manager
+05643994,Goods Flow Co-worker,2021-09-01,9999-12-31,Non Manager
+05645803,Goods Flow Co-worker,2021-10-15,9999-12-31,Non Manager
+05646905,Sales Co-worker,1981-11-15,9999-12-31,Non Manager
+05649642,Sales Co-worker,2022-12-01,9999-12-31,Non Manager
+05651159,Customer Relations Co-worker,2018-01-01,9999-12-31,Non Manager
+05651277,IKEA Food Co-worker,2007-12-01,2023-02-28,Non Manager
+05651277,Customer Relations Co-worker,2023-03-01,9999-12-31,Non Manager
+05652643,Goods Flow Co-worker,2023-02-01,9999-12-31,Non Manager
+05652775,Customer Services Team Manager,2017-03-15,9999-12-31,Manager
+05653738,Goods Flow Team Leader,2009-04-01,9999-12-31,Manager
+05655226,IKEA Food Co-worker,2003-05-15,9999-12-31,Non Manager
+05657057,Customer Relations Co-worker,2004-06-01,9999-12-31,Non Manager
+05658193,Sales Co-worker,2021-07-01,9999-12-31,Non Manager
+05666500,IF Team Leader,2020-05-15,2023-08-31,Manager
+05666500,Customer Services Team Manager,2023-09-01,9999-12-31,Manager
+05667157,Customer Relations Co-worker,1992-08-01,9999-12-31,Non Manager
+05669351,Customer Relations Co-worker,2018-09-01,9999-12-31,Non Manager
+05671873,Goods Flow Co-worker,2020-10-15,9999-12-31,Non Manager
+05673028,Sales Co-worker,1993-11-15,9999-12-31,Non Manager
+05673067,Graphic Communication Co-worker,2012-12-01,9999-12-31,Non Manager
+05674230,Customer Relations Co-worker,2003-01-01,9999-12-31,Non Manager
+05674738,Customer Relations Co-worker,2003-02-01,9999-12-31,Non Manager
+05675951,Goods Flow Co-worker,2023-03-15,9999-12-31,Non Manager
+05676582,Sales Co-worker,2022-04-01,9999-12-31,Non Manager
+05677363,Sales Co-worker,2003-05-15,9999-12-31,Non Manager
+05678637,IF Bistro & Sweden Shop Co-worker,2012-11-01,2023-01-31,Non Manager
+05678637,Sales Co-worker,2023-02-01,9999-12-31,Non Manager
+05682780,IKEA Food Co-worker,2020-06-01,9999-12-31,Non Manager
+05686733,Checkout Coworker IKEA FOOD,2004-10-15,2022-12-31,Non Manager
+05686733,Customer Relations Co-worker,2023-01-01,9999-12-31,Non Manager
+05689869,Sales Co-worker,2020-07-01,9999-12-31,Non Manager
+05689904,Sales Co-worker,2003-08-01,9999-12-31,Non Manager
+05691522,Goods Flow Co-worker,2022-09-01,9999-12-31,Non Manager
+05691889,Goods Flow Co-worker,2021-10-15,9999-12-31,Non Manager
+05692292,Sales Co-worker,2003-11-15,9999-12-31,Non Manager
+05694083,Sales Co-worker,2022-12-01,9999-12-31,Non Manager
+05695052,Goods Flow Co-worker,2022-01-01,9999-12-31,Non Manager
+05696549,Com & In Co-worker,2020-03-15,2023-09-30,Non Manager
+05696549,Interior Design Co-worker,2023-10-01,9999-12-31,Non Manager
+05697392,Sales Co-worker,2018-02-01,9999-12-31,Non Manager
+05700986,Sales Co-worker,2022-03-15,9999-12-31,Non Manager
+05703851,Sales Co-worker,2001-04-01,9999-12-31,Non Manager
+05704335,Goods Flow Co-worker,2017-05-15,9999-12-31,Non Manager
+05706623,Checkout Coworker IKEA FOOD,2021-06-01,9999-12-31,Non Manager
+05707074,Sales Co-worker,2003-01-01,2022-08-31,Non Manager
+05707074,Commercial Activity Leader,2022-09-01,9999-12-31,Non Manager
+05711107,Customer Relations Co-worker,2021-07-01,9999-12-31,Non Manager
+05712015,Sales Co-worker,2023-08-01,9999-12-31,Non Manager
+05712050,Goods Flow Co-worker,2023-09-01,9999-12-31,Non Manager
+05713467,Goods Flow Co-worker,2017-10-15,9999-12-31,Non Manager
+05714048,Sales Co-worker,2003-11-15,9999-12-31,Non Manager
+05715389,Sales Co-worker,2003-12-01,9999-12-31,Non Manager
+05717761,IKEA Food Co-worker,2020-01-01,9999-12-31,Non Manager
+05718731,Sales & Supply Support Specialist,2014-02-01,9999-12-31,Non Manager
+05722807,Recovery Co-worker,2020-03-15,9999-12-31,Non Manager
+05723589,Goods Flow Co-worker,2014-04-01,9999-12-31,Non Manager
+05725626,Checkout Coworker IKEA FOOD,2003-06-01,2023-02-28,Non Manager
+05725626,Customer Relations Co-worker,2023-03-01,9999-12-31,Non Manager
+05725899,Sales Co-worker,2003-05-15,9999-12-31,Non Manager
+05728062,Customer Services Team Manager,2020-06-01,9999-12-31,Manager
+05731266,Sales Co-worker,2009-07-01,9999-12-31,Non Manager
+05732882,Sales Co-worker,2006-08-01,9999-12-31,Non Manager
+05733791,Customer Relations Co-worker,2022-09-01,9999-12-31,Non Manager
+05737414,Goods Flow Co-worker,2006-10-15,9999-12-31,Non Manager
+05739111,Logistics Manager,2006-11-15,9999-12-31,Manager
+05739885,Sales Co-worker,2003-12-01,9999-12-31,Non Manager
+05740339,Goods Flow Co-worker,2022-01-01,9999-12-31,Non Manager
+05741602,IKEA Food Co-worker,2021-04-01,2023-05-31,Non Manager
+05741602,Customer Relations Co-worker,2023-06-01,9999-12-31,Non Manager
+05742894,Frontliner,2019-02-01,9999-12-31,Non Manager
+05744553,Goods Flow Co-worker,2022-03-15,9999-12-31,Non Manager
+05745153,Customer Relations Co-worker,2003-04-01,9999-12-31,Non Manager
+05745379,Goods Flow Co-worker,2006-05-15,9999-12-31,Non Manager
+05746525,Sales Co-worker,2010-06-01,9999-12-31,Non Manager
+05754826,Customer Relations Co-worker,2009-07-01,9999-12-31,Non Manager
+05755527,Goods Flow Co-worker,2022-08-01,9999-12-31,Non Manager
+05761147,Goods Flow Co-worker,2022-09-01,9999-12-31,Non Manager
+05761652,Apprentice,2022-10-15,9999-12-31,Non Manager
+05767078,IF Bistro & Sweden Shop Co-worker,2012-11-15,9999-12-31,Non Manager
+05769429,Sales Co-worker,2007-12-01,9999-12-31,Non Manager
+05770839,Customer Relations Co-worker,2018-01-01,9999-12-31,Non Manager
+05771604,Customer Relations Co-worker,2016-02-01,9999-12-31,Non Manager
+05773378,Goods Flow Co-worker,2010-03-15,9999-12-31,Non Manager
+05773511,Visual Merchandising/Activity Co-worker,2018-04-01,9999-12-31,Non Manager
+05773726,Sales Co-worker,2003-05-15,9999-12-31,Non Manager
+05778304,Goods Flow Co-worker,2023-06-01,9999-12-31,Non Manager
+05778840,Frontliner,2020-07-01,9999-12-31,Non Manager
+05779550,Sales Co-worker,2022-08-01,9999-12-31,Non Manager
+05780861,Recovery Co-worker,2010-09-01,9999-12-31,Non Manager
+05783562,Goods Flow Co-worker,2012-10-15,9999-12-31,Non Manager
+05784849,Goods Flow Co-worker,2021-11-15,9999-12-31,Non Manager
+05787816,Visual Merchandising/Activity Co-worker,2011-12-01,9999-12-31,Non Manager
+05789155,IKEA Food Co-worker,2004-01-01,9999-12-31,Non Manager
+05790920,IKEA Food Co-worker,2011-02-01,9999-12-31,Non Manager
+05791872,Sales Team Leader,2018-03-15,9999-12-31,Manager
+05793940,Checkout Coworker IKEA FOOD,2004-04-01,9999-12-31,Non Manager
+05794336,Customer Relations Co-worker,2003-05-15,9999-12-31,Non Manager
+05795223,Recovery Co-worker,2003-06-01,9999-12-31,Non Manager
+05795533,Sales Co-worker,2022-07-01,9999-12-31,Non Manager
+05798442,IKEA Food Co-worker,2022-08-01,9999-12-31,Non Manager
+05798546,Goods Flow Co-worker,2022-09-01,9999-12-31,Non Manager
+05802234,Goods Flow Co-worker,2023-10-15,9999-12-31,Non Manager
+05807638,Sales Co-worker,2022-11-15,9999-12-31,Non Manager
+05808648,Sales Co-worker,2022-12-01,9999-12-31,Non Manager
+05811209,Sales Manager,2006-01-01,9999-12-31,Manager
+05811943,Interior Design Co-worker,2018-02-01,9999-12-31,Non Manager
+05818583,Goods Flow Co-worker,2022-03-15,9999-12-31,Non Manager
+05818633,Customer Relations Co-worker,2022-04-01,9999-12-31,Non Manager
+05819312,Sales Team Leader,2022-05-15,9999-12-31,Manager
+05822014,Sales Co-worker,2018-06-01,9999-12-31,Non Manager
+05832047,Sales Co-worker,2022-07-01,9999-12-31,Non Manager
+05836694,Customer Relations Co-worker,2021-08-01,9999-12-31,Non Manager
+05838230,Customer Relations Co-worker,2009-09-01,9999-12-31,Non Manager
+05840979,Goods Flow Co-worker,2022-10-15,9999-12-31,Non Manager
+05846476,Goods Flow Co-worker,2012-11-15,9999-12-31,Non Manager
+05849641,Goods Flow Co-worker,2020-12-01,9999-12-31,Non Manager
+05850058,Customer Relations Co-worker,2013-08-01,9999-12-31,Non Manager
+05850304,Sales Co-worker,2022-09-01,9999-12-31,Non Manager
+05853378,IKEA Food Co-worker,2014-10-15,9999-12-31,Non Manager
+05856793,Goods Flow Co-worker,2022-11-15,9999-12-31,Non Manager
+05857799,Recovery Co-worker,2017-12-01,9999-12-31,Non Manager
+05863363,Customer Relations Co-worker,2022-01-01,9999-12-31,Non Manager
+05864095,Sales Co-worker,2007-02-01,9999-12-31,Non Manager
+05864284,Recovery Co-worker,2003-03-15,9999-12-31,Non Manager
+05865718,Frontliner,2011-04-01,9999-12-31,Non Manager
+05866188,Goods Flow Co-worker,2000-05-15,9999-12-31,Non Manager
+05870106,Frontliner,2003-06-01,9999-12-31,Non Manager
+05876638,Goods Flow Co-worker,2022-07-01,9999-12-31,Non Manager
+05876831,Sales Co-worker,2010-09-01,2023-05-31,Non Manager
+05876831,IKEA for Business Specialist,2023-06-01,9999-12-31,Non Manager
+05882257,Customer Relations Co-worker,2005-08-01,9999-12-31,Non Manager
+05885098,Sales Co-worker,2002-09-01,9999-12-31,Non Manager
+05889239,Goods Flow Co-worker,2010-10-15,9999-12-31,Non Manager
+05889649,Furniture Builder,2007-11-15,9999-12-31,Non Manager
+05890478,Sales Co-worker,2007-12-01,9999-12-31,Non Manager
+05891532,Sales Co-worker,2004-01-01,9999-12-31,Non Manager
+05893083,Sales Co-worker,2022-02-01,9999-12-31,Non Manager
+05895615,Maintenance Co-worker,2005-03-15,9999-12-31,Non Manager
+05897607,Sales Co-worker,1981-04-01,9999-12-31,Non Manager
+05898972,Goods Flow Co-worker,2007-05-15,9999-12-31,Non Manager
+05901600,Sales Co-worker,1990-06-01,9999-12-31,Non Manager
+05903370,Recovery Co-worker,1997-07-01,9999-12-31,Non Manager
+05907157,IKEA Food Co-worker,2016-08-01,9999-12-31,Non Manager
+05914318,Sales Co-worker,2019-09-01,9999-12-31,Non Manager
+05916268,IKEA Food Co-worker,2022-03-15,2023-08-31,Non Manager
+05916268,Customer Relations Co-worker,2023-09-01,9999-12-31,Non Manager
+05916397,Goods Flow Co-worker,2020-10-15,9999-12-31,Non Manager
+05918631,Sales Co-worker,2002-11-15,9999-12-31,Non Manager
+05918685,Unit People & Culture Manager,2005-12-01,9999-12-31,Manager
+05921822,Goods Flow Co-worker,2021-01-01,9999-12-31,Non Manager
+05924285,IKEA Food Co-worker,2020-01-01,2023-07-31,Non Manager
+05924285,Goods Flow Co-worker,2023-08-01,9999-12-31,Non Manager
+05926288,Goods Flow Co-worker,2021-02-01,9999-12-31,Non Manager
+05928381,Goods Flow Co-worker,2022-03-15,9999-12-31,Non Manager
+05933091,Sales Co-worker,2016-04-01,9999-12-31,Non Manager
+05936518,IKEA Food Co-worker,2020-02-01,2023-08-31,Non Manager
+05936518,Goods Flow Co-worker,2023-09-01,9999-12-31,Non Manager
+05940090,Sales Co-worker,2022-05-15,9999-12-31,Non Manager
+05942036,Goods Flow Co-worker,2020-06-01,9999-12-31,Non Manager
+05943974,Kitchen Production Specialist,2005-07-01,9999-12-31,Non Manager
+05944255,Visual Merchandising/Activity Co-worker,2010-08-01,9999-12-31,Non Manager
+05944398,Carpenter Co-worker,2003-09-01,9999-12-31,Non Manager
+05945011,Sales Co-worker,2022-10-15,9999-12-31,Non Manager
+05948121,Recovery Co-worker,2016-10-15,9999-12-31,Non Manager
+05948772,Customer Relations Co-worker,2022-11-15,9999-12-31,Non Manager
+05949063,Sales Co-worker,2003-12-01,9999-12-31,Non Manager
+05949118,Visual Merchandising/Activity Co-worker,2002-01-01,9999-12-31,Non Manager
+05950269,Sales Co-worker,2021-02-01,9999-12-31,Non Manager
+05951330,Goods Flow Co-worker,2022-03-15,9999-12-31,Non Manager
+05953118,Sales Co-worker,2018-04-01,9999-12-31,Non Manager
+05955592,Sales Co-worker,2010-05-15,9999-12-31,Non Manager
+05956537,Sales Co-worker,2022-06-01,9999-12-31,Non Manager
+05957211,IKEA Food Co-worker,2021-02-15,2023-09-30,Non Manager
+05957211,Goods Flow Co-worker,2023-10-01,9999-12-31,Non Manager
+05959259,IKEA Food Co-worker,2019-07-01,9999-12-31,Non Manager
+05959996,Sales Co-worker,2004-08-01,9999-12-31,Non Manager
+05968844,Logistics Manager,2016-09-01,9999-12-31,Manager
+05969066,Business Navigation Co-worker,2003-10-15,9999-12-31,Non Manager
+05971168,Sales Team Leader,2011-11-15,9999-12-31,Manager
+05972540,Sales Co-worker,2022-12-01,9999-12-31,Non Manager
+05977805,Sales Co-worker,2008-01-01,9999-12-31,Non Manager
+05983807,Sales Co-worker,2020-02-01,9999-12-31,Non Manager
+05985917,Checkout Coworker IKEA FOOD,2022-03-01,2023-11-30,Non Manager
+05985917,Goods Flow Co-worker,2023-12-01,9999-12-31,Non Manager
+05990766,Goods Flow Co-worker,2020-03-15,9999-12-31,Non Manager
+05991344,IKEA Food Co-worker,2019-04-01,9999-12-31,Non Manager
+05994400,Sales Co-worker,2021-05-15,9999-12-31,Non Manager
+05995755,Goods Flow Co-worker,2016-06-01,9999-12-31,Non Manager
+05999091,Goods Flow Co-worker,2019-05-01,2023-07-31,Non Manager
+05999091,Goods Flow Team Leader,2023-08-01,9999-12-31,Manager
+05999463,Goods Flow Co-worker,2010-05-01,2022-01-31,Non Manager
+05999463,Maintenance Technician,2022-02-01,9999-12-31,Non Manager
+05999553,Customer Relations Co-worker,2022-07-01,9999-12-31,Non Manager
