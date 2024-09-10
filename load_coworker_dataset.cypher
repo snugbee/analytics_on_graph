@@ -1,11 +1,11 @@
 // Create NODE KEY constraints to prevent duplicates 
 CREATE CONSTRAINT coworkers IF NOT EXISTS FOR (n:Coworker) REQUIRE (n.employee_id) IS NODE KEY;
 CREATE CONSTRAINT jobs IF NOT EXISTS FOR (n:Job) REQUIRE (n.uuid) IS NODE KEY; 
-CREATE CONSTRAINT roles IF NOT EXISTS FOR (n:Role) REQUIRE (n.name) IS NODE KEY;
+CREATE CONSTRAINT job_list IF NOT EXISTS FOR (n:JobList) REQUIRE (n.name) IS NODE KEY;
 CREATE CONSTRAINT departments IF NOT EXISTS FOR (n:Department) REQUIRE (n.uuid) IS NODE KEY; 
-CREATE CONSTRAINT org_departments IF NOT EXISTS FOR (n:OrgDepartment) REQUIRE (n.name) IS NODE KEY;
-CREATE CONSTRAINT employee_groups IF NOT EXISTS FOR (n:EmployeeGroup) REQUIRE (n.name) IS NODE KEY;
-CREATE CONSTRAINT employments IF NOT EXISTS FOR (n:Employment) REQUIRE (n.uuid) IS NODE KEY;
+CREATE CONSTRAINT dept_list IF NOT EXISTS FOR (n:DeptList) REQUIRE (n.name) IS NODE KEY;
+CREATE CONSTRAINT employee_grps IF NOT EXISTS FOR (n:EmployeeGroup) REQUIRE (n.uuid) IS NODE KEY;
+CREATE CONSTRAINT emp_grp_list IF NOT EXISTS FOR (n:EmpGrpList) REQUIRE (n.name) IS NODE KEY;
 
 // Load coworker nodes
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/snugbee/analytics_on_graph/main/csv/coworkers.csv' AS rows
@@ -23,10 +23,10 @@ WITH rows,
         ELSE null
     END as manager
 MATCH (n:Coworker{employee_id:rows.employee_id})
-MERGE (m:Role{
+MERGE (m:JobList{
     name:rows.job,
     is_manager:manager})
-MERGE (n)-[:HAS_JOB]->(:Job{name:rows.job,start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), is_manager:manager,uuid:apoc.create.uuid()})-[:IS_TYPE_OF]->(m);
+MERGE (n)-[:HAS_JOB]->(:Job{name:rows.job,start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), is_manager:manager,uuid:apoc.create.uuid()})-[:IN_LIST]->(m);
 
 // Create linked list of jobs
 MATCH (c:Coworker)-[:HAS_JOB]->(j:Job)
@@ -43,8 +43,8 @@ DELETE r;
 // Load departments and create WORKS_IN relationships
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/snugbee/analytics_on_graph/main/csv/departments.csv' AS rows
 MATCH (n:Coworker{employee_id:rows.employee_id})
-MERGE (d:OrgDepartment{name:rows.department})
-MERGE (n)-[r:WORKS_IN]->(:Department{name:rows.department, start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), uuid:apoc.create.uuid()})-[:IN_ORG]->(d);
+MERGE (d:DeptList{name:rows.department})
+MERGE (n)-[r:WORKS_IN]->(:Department{name:rows.department, start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), uuid:apoc.create.uuid()})-[:IN_LIST]->(d);
 
 // Create linked list of departments
 MATCH (c:Coworker)-[:WORKS_IN]->(d:Department)
@@ -61,17 +61,17 @@ DELETE r;
 // Load employee groups and create relationships
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/snugbee/analytics_on_graph/main/csv/groups.csv' AS rows
 MATCH (n:Coworker{employee_id:rows.employee_id})
-MERGE (g:EmployeeGroup{name:rows.employee_group})
-MERGE (n)-[:EMPLOYMENT_TYPE]->(:Employment{type:rows.employee_group, start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), uuid:apoc.create.uuid()})-[r:IS_MEMBER_OF]->(g);
+MERGE (g:EmpGrpList{name:rows.employee_group})
+MERGE (n)-[:IS_MEMBER_OF]->(:EmployeeGroup{type:rows.employee_group, start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), uuid:apoc.create.uuid()})-[r:IN_LIST]->(g);
 
 // Create linked list of employment types
-MATCH (c:Coworker)-[:EMPLOYMENT_TYPE]->(e:Employment)
+MATCH (c:Coworker)-[:IS_MEMBER_OF]->(e:EmployeeGroup)
 WITH c, e
 ORDER BY e.start_date desc
 WITH c, collect(e) as employments
-CALL apoc.nodes.link(employments, 'PREVIOUS_EMPLOYMENT_TYPE');
+CALL apoc.nodes.link(employments, 'PREVIOUS_EMPLOYEE_GROUP');
 
 // Delete EMPLOYMENT_TYPE relationships between Coworkers and previous employment types
-MATCH (e:Employment)<-[:PREVIOUS_EMPLOYMENT_TYPE]-(:Employment)
-MATCH (e)<-[r:EMPLOYMENT_TYPE]-(:Coworker)
+MATCH (e:EmpGrpList)<-[:PREVIOUS_EMPLOYEE_GROUP]-(:EmpGrpList)
+MATCH (e)<-[r:IS_MEMBER_OF]-(:Coworker)
 DELETE r;
