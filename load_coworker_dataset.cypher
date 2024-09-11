@@ -62,7 +62,7 @@ DELETE r;
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/snugbee/analytics_on_graph/main/csv/groups.csv' AS rows
 MATCH (n:Coworker{employee_id:rows.employee_id})
 MERGE (g:EmpGrpList{name:rows.employee_group})
-MERGE (n)-[:IS_MEMBER_OF]->(:EmployeeGroup{type:rows.employee_group, start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), uuid:apoc.create.uuid()})-[r:IN_LIST]->(g);
+MERGE (n)-[:IS_MEMBER_OF]->(:EmployeeGroup{name:rows.employee_group, start_date:date(rows.start_date), end_date:date(left(rows.end_date, 10)), uuid:apoc.create.uuid()})-[r:IN_LIST]->(g);
 
 // Create linked list of employment types
 MATCH (c:Coworker)-[:IS_MEMBER_OF]->(e:EmployeeGroup)
