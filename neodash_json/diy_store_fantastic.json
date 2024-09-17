@@ -2,7 +2,7 @@
   "title": "DIY Store Fantastic",
   "version": "2.4",
   "settings": {
-    "pagenumber": 0,
+    "pagenumber": 1,
     "editable": true,
     "fullscreenEnabled": false,
     "parameters": {
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "title": "Coworker Development",
+      "title": "Store statistics",
       "reports": [
         {
           "id": "36abf87c-6d73-43c0-b0d2-ae62b86aa541",
@@ -98,14 +98,7 @@
             "EmpGrpList": "name",
             "EmployeeGroup": "name",
             "Job": "name",
-            "JobList": "name",
-            "IN_LIST": "(label)",
-            "HAS_JOB": "(label)",
-            "PREVIOUS_JOB": "(label)",
-            "PREVIOUS_DEPARTMENT": "(label)",
-            "WORKS_IN": "(label)",
-            "PREVIOUS_EMPLOYEE_GROUP": "(label)",
-            "IS_MEMBER_OF": "(label)"
+            "JobList": "name"
           },
           "settings": {
             "hideSelections": true,
@@ -211,6 +204,83 @@
           "settings": {
             "compact": true
           }
+        },
+        {
+          "id": "4ce4fe78-db2f-40bc-837f-67ab6c1cf6a5",
+          "title": "Departments",
+          "query": "",
+          "width": 5,
+          "height": 5,
+          "x": 0,
+          "y": 3,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "compact": true,
+            "wrapContent": true,
+            "description": "Write a query to return the name of the departments and their coworker counts so we can see them as a list."
+          }
+        },
+        {
+          "id": "8f2839cd-3d62-4671-87ca-744b10161d64",
+          "title": "Employee groups",
+          "query": "MATCH (e:EmployeeGroup)-[]-(c:Coworker)\nRETURN distinct e.name as EmployeeGroup, count(c) as CoworkerCounts\nORDER BY EmployeeGroup\n",
+          "width": 6,
+          "height": 5,
+          "x": 14,
+          "y": 3,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "compact": true
+          }
+        },
+        {
+          "id": "b4f57502-c8f5-4f72-b561-948571638a27",
+          "title": "Management team",
+          "query": "MATCH (n:Department {name:'Management Team'})-[r1]-(c:Coworker)-[r2]-(j:Job)\nwhere date(j.end_date) = date('9999-12-31')\nRETURN distinct j.name as ManagementTeamJob, count(c) as CoworkerCounts\nORDER BY ManagementTeamJob\n",
+          "width": 9,
+          "height": 5,
+          "x": 5,
+          "y": 3,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "compact": true,
+            "columnWidths": "[2,1]",
+            "wrapContent": true
+          }
+        },
+        {
+          "id": "146a30a1-2372-445f-8b14-30cc6c290a51",
+          "title": "Fantastic Store statistics",
+          "query": "Let's have a look at how Fantastic Store is organized, the demography of the coworkers and see *if they are a balanced group*. \n",
+          "width": 6,
+          "height": 3,
+          "x": 0,
+          "y": 0,
+          "type": "text",
+          "selection": {},
+          "settings": {},
+          "schema": []
+        }
+      ]
+    },
+    {
+      "title": "Coworker demography",
+      "reports": [
+        {
+          "id": "c4ba30e1-134f-437e-9a4b-542e0e4c108f",
+          "title": "Demography of all coworkers",
+          "query": "Fantastic Store has many talented coworkers with a mix of gender, nationality, age and service year. Some just joined in 2023. Their \"entry_year\" property value is \"2023\" and \"service_year\" is \"0\".\n\nCoworker's age and service year have been binned into groups for desensitization and fitting for analytical purpose.\n\nWith the following demographic analysis, can you tell if the coworker population is balanced?\n\n\n",
+          "width": 21,
+          "height": 2,
+          "x": 0,
+          "y": 8,
+          "type": "text",
+          "selection": {},
+          "settings": {},
+          "schema": []
         },
         {
           "id": "8492f1d7-58ea-4baf-94cb-679d84c78d98",
@@ -329,6 +399,55 @@
           "schema": []
         },
         {
+          "id": "69cce1d4-0e94-4153-ae16-5c94bf9e5b7c",
+          "title": "Demography of coworkers who have people responsibility",
+          "query": "Other than the coworkers in the Department \"Management Team\" who are the top management of the store, there are other coworkers who have people responsibility. They have jobs which have the property \"is_manager\" as \"Manager\", versus \"Non Manager\".\n\nWith the following demographic analysis, and compared to that of the whole coworker population, can you tell if the managers are a balanced group?\n\n\n",
+          "width": 15,
+          "height": 2,
+          "x": 0,
+          "y": 13,
+          "type": "text",
+          "selection": {},
+          "settings": {},
+          "schema": []
+        },
+        {
+          "id": "294664e4-324b-4905-9adc-fb86b2cb45cd",
+          "title": "Is_manager",
+          "query": "match (n:Coworker)-[r]->(j:Job {is_manager:true})\nwhere date(j.end_date)=date('9999-12-31')\nreturn count(n) as Counts\n\n",
+          "width": 6,
+          "height": 2,
+          "x": 15,
+          "y": 13,
+          "type": "value",
+          "selection": {},
+          "settings": {
+            "refreshButtonEnabled": true,
+            "layout": "horizontal",
+            "fullscreenEnabled": true,
+            "barValues": true,
+            "hideSelections": true,
+            "styleRules": [
+              {
+                "field": "Gender",
+                "condition": "=",
+                "value": "Female",
+                "customization": "bar color",
+                "customizationValue": "#FACD7F"
+              },
+              {
+                "field": "Gender",
+                "condition": "=",
+                "value": "Male",
+                "customization": "bar color",
+                "customizationValue": "#40CFFF"
+              }
+            ],
+            "labelRotation": 40
+          },
+          "schema": []
+        },
+        {
           "id": "44c9b3ad-a87d-4bd0-83eb-6f5d1ffca9be",
           "title": "By gender - is_manager",
           "query": "match (n:Coworker)-[r]->(j:Job {is_manager:true})\nwhere date(j.end_date)=date('9999-12-31')\nreturn n.gender as Gender, count(n) as Counts\norder by Gender desc\n\n",
@@ -366,19 +485,6 @@
             ],
             "labelRotation": 45
           },
-          "schema": []
-        },
-        {
-          "id": "c4ba30e1-134f-437e-9a4b-542e0e4c108f",
-          "title": "Demography of all coworkers",
-          "query": "Fantastic Store has many talented coworkers with a mix of gender, nationality, age and service year. Some just joined in 2023. Their \"entry_year\" property value is \"2023\" and \"service_year\" is \"0\".\n\nCoworker's age and service year have been binned into groups for desensitization and fitting for analytical purpose.\n\nWith the following demographic analysis, can you tell if the coworker population is balanced?\n\n\n",
-          "width": 21,
-          "height": 2,
-          "x": 0,
-          "y": 8,
-          "type": "text",
-          "selection": {},
-          "settings": {},
           "schema": []
         },
         {
@@ -458,101 +564,24 @@
             "labelRotation": 45
           },
           "schema": []
-        },
+        }
+      ]
+    },
+    {
+      "title": "Who changed jobs",
+      "reports": [
         {
-          "id": "69cce1d4-0e94-4153-ae16-5c94bf9e5b7c",
-          "title": "Demography of coworkers who have people responsibility",
-          "query": "Other than the coworkers in the Department \"Management Team\" who are the top management of the store, there are other coworkers who have people responsibility. They have jobs which have the property \"is_manager\" as \"Manager\", versus \"Non Manager\".\n\nWith the following demographic analysis, and compared to that of the whole coworker population, can you tell if the managers are a balanced group?\n\n\n",
-          "width": 15,
+          "id": "f9cfa04f-2204-482b-a627-4846283eae84",
+          "title": "Demography of coworkers who changed jobs in the recent years",
+          "query": "One development trend is changing jobs. It can be job change within the department and between departments. We have 2 start years for new jobs: 2022 and 2023.\n\nLooking at the demography of the coworkers who changed jobs, can you observe if there is any bias?\n\n*(Since this is a fable. There are no job changes before 2022.)*",
+          "width": 21,
           "height": 2,
           "x": 0,
-          "y": 13,
+          "y": 18,
           "type": "text",
           "selection": {},
           "settings": {},
           "schema": []
-        },
-        {
-          "id": "4ce4fe78-db2f-40bc-837f-67ab6c1cf6a5",
-          "title": "Departments",
-          "query": "",
-          "width": 5,
-          "height": 5,
-          "x": 0,
-          "y": 3,
-          "type": "table",
-          "selection": {},
-          "settings": {
-            "compact": true,
-            "wrapContent": true,
-            "description": "Write a query to return the name of the departments and their coworker counts so we can see them as a list."
-          }
-        },
-        {
-          "id": "8f2839cd-3d62-4671-87ca-744b10161d64",
-          "title": "Employee groups",
-          "query": "MATCH (e:EmployeeGroup)-[]-(c:Coworker)\nRETURN distinct e.name as EmployeeGroup, count(c) as CoworkerCounts\nORDER BY EmployeeGroup\n",
-          "width": 6,
-          "height": 5,
-          "x": 14,
-          "y": 3,
-          "type": "table",
-          "selection": {},
-          "settings": {
-            "compact": true
-          }
-        },
-        {
-          "id": "294664e4-324b-4905-9adc-fb86b2cb45cd",
-          "title": "Is_manager",
-          "query": "match (n:Coworker)-[r]->(j:Job {is_manager:true})\nwhere date(j.end_date)=date('9999-12-31')\nreturn count(n) as Counts\n\n",
-          "width": 6,
-          "height": 2,
-          "x": 15,
-          "y": 13,
-          "type": "value",
-          "selection": {},
-          "settings": {
-            "refreshButtonEnabled": true,
-            "layout": "horizontal",
-            "fullscreenEnabled": true,
-            "barValues": true,
-            "hideSelections": true,
-            "styleRules": [
-              {
-                "field": "Gender",
-                "condition": "=",
-                "value": "Female",
-                "customization": "bar color",
-                "customizationValue": "#FACD7F"
-              },
-              {
-                "field": "Gender",
-                "condition": "=",
-                "value": "Male",
-                "customization": "bar color",
-                "customizationValue": "#40CFFF"
-              }
-            ],
-            "labelRotation": 40
-          },
-          "schema": []
-        },
-        {
-          "id": "b4f57502-c8f5-4f72-b561-948571638a27",
-          "title": "Management team",
-          "query": "MATCH (n:Department {name:'Management Team'})-[r1]-(c:Coworker)-[r2]-(j:Job)\nwhere date(j.end_date) = date('9999-12-31')\nRETURN distinct j.name as ManagementTeamJob, count(c) as CoworkerCounts\nORDER BY ManagementTeamJob\n",
-          "width": 9,
-          "height": 5,
-          "x": 5,
-          "y": 3,
-          "type": "table",
-          "selection": {},
-          "settings": {
-            "compact": true,
-            "columnWidths": "[2,1]",
-            "wrapContent": true
-          }
         },
         {
           "id": "8670338a-2cf0-4a17-8569-c51a65eb4dfd",
@@ -591,6 +620,20 @@
             "compact": true
           },
           "schema": []
+        },
+        {
+          "id": "da226530-3268-4cee-8dd6-07bc86ab9739",
+          "title": "Top 3 jobs from which coworkers changed the most",
+          "query": "",
+          "width": 5,
+          "height": 3,
+          "x": 17,
+          "y": 27,
+          "type": "table",
+          "selection": {},
+          "settings": {
+            "description": "Write a query to return the top 3 previous jobs from which coworkers changed the most."
+          }
         },
         {
           "id": "ea4cbef0-1f24-4773-ba7e-ccf257021ca1",
@@ -764,20 +807,13 @@
             "description": "Write a query to return the number of coworkers who changed job, per service_year_group so we can see the distribution in a bar chart."
           },
           "schema": []
-        },
-        {
-          "id": "f9cfa04f-2204-482b-a627-4846283eae84",
-          "title": "Demography of coworkers who changed jobs in the recent years",
-          "query": "One development trend is changing jobs. It can be job change within the department and between departments. We have 2 start years for new jobs: 2022 and 2023.\n\nLooking at the demography of the coworkers who changed jobs, can you observe if there is any bias?\n\n*(Since this is a fable. There are no job changes before 2022.)*",
-          "width": 21,
-          "height": 2,
-          "x": 0,
-          "y": 18,
-          "type": "text",
-          "selection": {},
-          "settings": {},
-          "schema": []
-        },
+        }
+
+      ]
+    },
+    {
+      "title": "Who have become managers",
+      "reports": [
         {
           "id": "e1569406-51c5-4822-b9b6-18e2b57cffb5",
           "title": "Demography of coworkers who have become managers in the short history",
@@ -1000,33 +1036,6 @@
             "marginLeft": 100
           },
           "schema": []
-        },
-        {
-          "id": "146a30a1-2372-445f-8b14-30cc6c290a51",
-          "title": "Fantastic Store statistics",
-          "query": "Let's have a look at how Fantastic Store is organized, the demography of the coworkers and see *if they are a balanced group*. \n",
-          "width": 6,
-          "height": 3,
-          "x": 0,
-          "y": 0,
-          "type": "text",
-          "selection": {},
-          "settings": {},
-          "schema": []
-        },
-        {
-          "id": "da226530-3268-4cee-8dd6-07bc86ab9739",
-          "title": "Top 3 jobs from which coworkers changed the most",
-          "query": "",
-          "width": 5,
-          "height": 3,
-          "x": 17,
-          "y": 27,
-          "type": "table",
-          "selection": {},
-          "settings": {
-            "description": "Write a query to return the top 3 previous jobs from which coworkers changed the most."
-          }
         }
       ]
     }
