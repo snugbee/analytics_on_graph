@@ -19,7 +19,7 @@ This instruction will set you up for the workshop. We will be using a sandbox en
 
 <img width="60%" alt="Blank Sandbox" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/blanksandbox.jpeg?raw=true">
 
-5. The sandbox will be created, a credentials files is downloaded and you'll be taken to the sandbox page. Click the "Open" button to open the Neo4j Browser: 
+5. The sandbox will be created, a credentials file will be downloaded and you'll be taken to the sandbox page. Click the "Open" button to open the Neo4j Browser: 
 
 <img width="80%" alt="Open Browser" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/openbrowser.jpeg?raw=true">
 
