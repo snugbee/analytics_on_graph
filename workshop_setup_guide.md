@@ -23,7 +23,7 @@ This instruction will set you up for the workshop. We will be using a sandbox en
 
 <img width="80%" alt="Open Browser" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/openbrowser.jpeg?raw=true">
 
-6. If you used an existing account you can connect to your sandbox database instance using the "Single Sign On" authentication method. If you signed up for a new account you'll have to use the credentials from the downloaded file to connect using the "Username / Password" authentication type.
+6. Connect to the database using the "Single Sign On" authentication method. Sometimes this leads to another log on dialog. In that case use the same account as when you logged in to Neo4j Sandbox in the second step of this guide.
 
 <img width="80%" alt="Connect to Database" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/connectdb.jpeg?raw=true">
 
