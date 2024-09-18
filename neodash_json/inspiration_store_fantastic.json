@@ -1,5 +1,5 @@
 {
-  "title": "DIY Store Fantastic",
+  "title": "Inspiration Store Fantastic",
   "version": "2.4",
   "settings": {
     "pagenumber": 4,
@@ -86,7 +86,7 @@
           "id": "36abf87c-6d73-43c0-b0d2-ae62b86aa541",
           "title": "Model",
           "query": "//CALL db.schema.visualization()\nCALL apoc.meta.subGraph({\n  includeLabels: [\"Coworker\",\"Department\",\"Job\",\"EmployeeGroup\", \"DeptList\", \"EmpGrpList\", \"JobList\"],\n  includeRels: [\"IS_MEMBER_OF\",\"WORKS_IN\",\"HAS_JOB\", \"IN_LIST\",\"PREVIOUS_JOB\",\"PREVIOUS_DEPARTMENT\",\"PREVIOUS_EMPLOYEE_GROUP\"]\n});\n\n",
-          "width": 8,
+          "width": 7,
           "height": 3,
           "x": 6,
           "y": 0,
@@ -197,7 +197,7 @@
           "query": "MATCH (n)\nWHERE NOT \"_Neodash_Dashboard\" IN labels(n) and (\"Coworker\" in labels(n) or \"JobList\" in labels(n) or \"DeptList\" in labels(n) or \"EmpGrpList\" in labels(n))\nWITH labels(n) AS NodeType, count(n) AS Counts\nRETURN NodeType[0] as NodeType, Counts\nORDER BY NodeType\n",
           "width": 7,
           "height": 3,
-          "x": 14,
+          "x": 13,
           "y": 0,
           "type": "table",
           "selection": {},
@@ -206,10 +206,10 @@
           }
         },
         {
-          "id": "4ce4fe78-db2f-40bc-837f-67ab6c1cf6a5",
+          "id": "07624e2c-4c65-4ae1-86b8-92eaf3daccb1",
           "title": "Departments",
-          "query": "",
-          "width": 7,
+          "query": "MATCH (d:Department)-[]-(c:Coworker)\nRETURN distinct d.name as Department, count(c) as CoworkerCounts\nORDER BY Department\n",
+          "width": 5,
           "height": 5,
           "x": 0,
           "y": 3,
@@ -217,8 +217,7 @@
           "selection": {},
           "settings": {
             "compact": true,
-            "wrapContent": true,
-            "description": "Write a query to return the name of the departments and their coworker counts so we can see them as a list."
+            "wrapContent": true
           }
         },
         {
@@ -227,12 +226,13 @@
           "query": "MATCH (e:EmployeeGroup)-[]-(c:Coworker)\nRETURN distinct e.name as EmployeeGroup, count(c) as CoworkerCounts\nORDER BY EmployeeGroup\n",
           "width": 6,
           "height": 5,
-          "x": 16,
+          "x": 14,
           "y": 3,
           "type": "table",
           "selection": {},
           "settings": {
-            "compact": true
+            "compact": true,
+            "refreshButtonEnabled": true
           }
         },
         {
@@ -241,7 +241,7 @@
           "query": "MATCH (n:Department {name:'Management Team'})-[r1]-(c:Coworker)-[r2]-(j:Job)\nwhere date(j.end_date) = date('9999-12-31')\nRETURN distinct j.name as ManagementTeamJob, count(c) as CoworkerCounts\nORDER BY ManagementTeamJob\n",
           "width": 9,
           "height": 5,
-          "x": 7,
+          "x": 5,
           "y": 3,
           "type": "table",
           "selection": {},
@@ -276,7 +276,7 @@
           "width": 21,
           "height": 2,
           "x": 0,
-          "y": 0,
+          "y": 8,
           "type": "text",
           "selection": {},
           "settings": {},
@@ -289,7 +289,7 @@
           "width": 5,
           "height": 3,
           "x": 0,
-          "y": 6,
+          "y": 10,
           "type": "bar",
           "selection": {
             "index": "Gender",
@@ -323,13 +323,13 @@
           "schema": []
         },
         {
-          "id": "e7b75074-5834-4227-bfc8-6c6547f13d7d",
+          "id": "7a6a5796-5647-42a8-9461-2fce840ae9f5",
           "title": "By nationality - All",
-          "query": "",
+          "query": "match (n:Coworker)\nreturn n.nationality as Nationality, count(n) as Counts\norder by Counts\n\n",
           "width": 5,
           "height": 3,
           "x": 5,
-          "y": 6,
+          "y": 10,
           "type": "bar",
           "selection": {
             "index": "Nationality",
@@ -343,19 +343,18 @@
             "barValues": true,
             "labelRotation": 45,
             "hideSelections": true,
-            "marginLeft": 100,
-            "description": "Write a query to return the number of coworkers per nationality so we can see the distribution in a bar chart, largest group at the top."
+            "marginLeft": 100
           },
           "schema": []
         },
         {
-          "id": "978e3673-9534-4b5c-9477-330d351a7c36",
+          "id": "e6df3fe5-0f47-4cac-b95b-5a9b21966c27",
           "title": "By age group - All",
-          "query": "",
+          "query": "match (n:Coworker)\nreturn n.age_group as AgeGroup, count(n) as Counts\norder by AgeGroup desc\n\n",
           "width": 5,
           "height": 3,
           "x": 10,
-          "y": 2,
+          "y": 10,
           "type": "bar",
           "selection": {
             "index": "AgeGroup",
@@ -369,8 +368,7 @@
             "barValues": true,
             "hideSelections": true,
             "marginLeft": 100,
-            "labelRotation": 45,
-            "description": "Write a query to return the number of coworkers per age_group so we can see the distribution in a bar chart."
+            "labelRotation": 45
           },
           "schema": []
         },
@@ -381,7 +379,7 @@
           "width": 6,
           "height": 3,
           "x": 15,
-          "y": 2,
+          "y": 10,
           "type": "bar",
           "selection": {
             "index": "ServiceYearGroup",
@@ -405,7 +403,7 @@
           "width": 15,
           "height": 2,
           "x": 0,
-          "y": 9,
+          "y": 13,
           "type": "text",
           "selection": {},
           "settings": {},
@@ -418,7 +416,7 @@
           "width": 6,
           "height": 2,
           "x": 15,
-          "y": 5,
+          "y": 13,
           "type": "value",
           "selection": {},
           "settings": {
@@ -454,7 +452,7 @@
           "width": 5,
           "height": 3,
           "x": 0,
-          "y": 11,
+          "y": 15,
           "type": "bar",
           "selection": {
             "index": "Gender",
@@ -494,7 +492,7 @@
           "width": 5,
           "height": 3,
           "x": 5,
-          "y": 11,
+          "y": 15,
           "type": "bar",
           "selection": {
             "index": "Nationality",
@@ -520,7 +518,7 @@
           "width": 5,
           "height": 3,
           "x": 10,
-          "y": 11,
+          "y": 15,
           "type": "bar",
           "selection": {
             "index": "AgeGroup",
@@ -546,7 +544,7 @@
           "width": 6,
           "height": 3,
           "x": 15,
-          "y": 7,
+          "y": 15,
           "type": "bar",
           "selection": {
             "index": "ServiceYearGroup",
@@ -577,7 +575,7 @@
           "width": 21,
           "height": 2,
           "x": 0,
-          "y": 0,
+          "y": 18,
           "type": "text",
           "selection": {},
           "settings": {},
@@ -590,7 +588,7 @@
           "width": 21,
           "height": 3,
           "x": 0,
-          "y": 2,
+          "y": 20,
           "type": "table",
           "selection": {},
           "settings": {
@@ -609,7 +607,7 @@
           "width": 21,
           "height": 4,
           "x": 0,
-          "y": 5,
+          "y": 23,
           "type": "table",
           "selection": {},
           "settings": {
@@ -622,27 +620,25 @@
           "schema": []
         },
         {
-          "id": "da226530-3268-4cee-8dd6-07bc86ab9739",
-          "title": "Top 3 jobs from which coworkers changed the most",
-          "query": "",
-          "width": 10,
+          "id": "3fc72206-7d8e-47f3-8307-e739000795d7",
+          "title": "Top 3 jobs from which coworkers changed",
+          "query": "// What is the role that most coworkers move from?\nMATCH p = (j:Job)<-[:PREVIOUS_JOB]-(:Job)\nWITH j.name AS job, count(j) AS transitions\nORDER BY transitions DESC\nRETURN job, transitions\nlimit 3\n\n",
+          "width": 5,
           "height": 3,
-          "x": 0,
-          "y": 9,
+          "x": 18,
+          "y": 27,
           "type": "table",
           "selection": {},
-          "settings": {
-            "description": "Write a query to return the top 3 previous jobs from which coworkers changed the most."
-          }
+          "settings": {}
         },
         {
-          "id": "ea4cbef0-1f24-4773-ba7e-ccf257021ca1",
+          "id": "7020486f-5cfa-4bd5-af96-ebe454429e0e",
           "title": "By gender - job change",
-          "query": "",
-          "width": 10,
+          "query": "MATCH p1 = (c:Coworker)-[:HAS_JOB]->(j1:Job)-[:PREVIOUS_JOB*]->(j2:Job)\nWHERE length(p1) > 1\nRETURN  distinct c.gender AS Gender, count(c.employee_id) as NumberOfCoworker\nORDER BY Gender desc",
+          "width": 4,
           "height": 3,
-          "x": 10,
-          "y": 9,
+          "x": 0,
+          "y": 27,
           "type": "bar",
           "selection": {
             "index": "Gender",
@@ -672,67 +668,22 @@
                 "customizationValue": "#40CFFF"
               }
             ],
-            "hideSelections": true,
-            "description": "Write a query to return the number of coworkers who changed job, per gender so we can see the distribution in a bar chart."
+            "hideSelections": true
           },
           "schema": []
         },
         {
-          "id": "640de9a9-9c16-4b10-9f1c-4db4739e01da",
+          "id": "eed42703-730d-4bcb-8861-cee86fc23f39",
           "title": "By nationality - job change",
-          "query": "",
-          "width": 8,
+          "query": "MATCH p1 = (c:Coworker)-[:HAS_JOB]->(j1:Job)-[:PREVIOUS_JOB*]->(j2:Job)\nWHERE length(p1) > 1\nRETURN  distinct c.nationality AS Nationality, count(c.employee_id) as NumberOfCoworker\nORDER BY NumberOfCoworker",
+          "width": 4,
           "height": 3,
-          "x": 0,
-          "y": 12,
+          "x": 4,
+          "y": 27,
           "type": "bar",
           "selection": {
             "index": "Nationality",
             "value": "NumberOfCoworker",
-            "key": "(none)"
-          },
-          "settings": {
-            "fullscreenEnabled": true,
-            "layout": "horizontal",
-            "refreshButtonEnabled": true,
-            "wrapContent": true,
-            "compact": true,
-            "barValues": true,
-            "styleRules": [
-              {
-                "field": "Gender",
-                "condition": "=",
-                "value": "Female",
-                "customization": "bar color",
-                "customizationValue": "#FACD7F"
-              },
-              {
-                "field": "Gender",
-                "condition": "=",
-                "value": "Male",
-                "customization": "bar color",
-                "customizationValue": "#40CFFF"
-              }
-            ],
-            "hideSelections": true,
-            "colors": "paired",
-            "marginLeft": 100,
-            "description": "Write a query to return the number of coworkers who changed job, per nationality so we can see the distribution in a bar chart."
-          },
-          "schema": []
-        },
-        {
-          "id": "4c8a3035-577f-4100-97c6-e43581f49d88",
-          "title": "By age group - job change",
-          "query": "MATCH p1 = (c:Coworker)-[:HAS_JOB]->(j1:Job)-[:PREVIOUS_JOB*]->(j2:Job)\nWHERE length(p1) > 1\nRETURN  distinct c.age_group AS AgeGroup, count(c.employee_id) as NumberOfCoworkers\nORDER BY NumberOfCoworkers",
-          "width": 8,
-          "height": 3,
-          "x": 8,
-          "y": 12,
-          "type": "bar",
-          "selection": {
-            "index": "AgeGroup",
-            "value": "NumberOfCoworkers",
             "key": "(none)"
           },
           "settings": {
@@ -765,13 +716,56 @@
           "schema": []
         },
         {
-          "id": "06fb0380-7872-4aa6-9a5c-a225a90ae426",
-          "title": "By service year group - job change",
-          "query": "",
-          "width": 7,
+          "id": "4c8a3035-577f-4100-97c6-e43581f49d88",
+          "title": "By age group - job change",
+          "query": "MATCH p1 = (c:Coworker)-[:HAS_JOB]->(j1:Job)-[:PREVIOUS_JOB*]->(j2:Job)\nWHERE length(p1) > 1\nRETURN  distinct c.age_group AS AgeGroup, count(c.employee_id) as NumberOfCoworker\nORDER BY AgeGroup desc",
+          "width": 5,
           "height": 3,
-          "x": 16,
-          "y": 12,
+          "x": 8,
+          "y": 27,
+          "type": "bar",
+          "selection": {
+            "index": "AgeGroup",
+            "value": "NumberOfCoworker",
+            "key": "(none)"
+          },
+          "settings": {
+            "fullscreenEnabled": true,
+            "layout": "horizontal",
+            "refreshButtonEnabled": true,
+            "wrapContent": true,
+            "compact": true,
+            "barValues": true,
+            "styleRules": [
+              {
+                "field": "Gender",
+                "condition": "=",
+                "value": "Female",
+                "customization": "bar color",
+                "customizationValue": "#FACD7F"
+              },
+              {
+                "field": "Gender",
+                "condition": "=",
+                "value": "Male",
+                "customization": "bar color",
+                "customizationValue": "#40CFFF"
+              }
+            ],
+            "hideSelections": true,
+            "colors": "paired",
+            "marginLeft": 100
+          },
+          "schema": []
+        },
+        {
+          "id": "155ed581-1e80-4068-9c02-40eea8b8e831",
+          "title": "By service year group - job change",
+          "query": "MATCH p1 = (c:Coworker)-[:HAS_JOB]->(j1:Job)-[:PREVIOUS_JOB*]->(j2:Job)\nWHERE length(p1) > 1\nRETURN  distinct c.service_year_group AS ServiceYear, count(c.employee_id) as NumberOfCoworker\nORDER BY ServiceYear desc",
+          "width": 5,
+          "height": 3,
+          "x": 13,
+          "y": 27,
           "type": "bar",
           "selection": {
             "index": "ServiceYear",
@@ -803,8 +797,7 @@
             ],
             "hideSelections": true,
             "colors": "paired",
-            "marginLeft": 100,
-            "description": "Write a query to return the number of coworkers who changed job, per service_year_group so we can see the distribution in a bar chart."
+            "marginLeft": 100
           },
           "schema": []
         }
@@ -820,7 +813,7 @@
           "width": 15,
           "height": 2,
           "x": 0,
-          "y": 0,
+          "y": 30,
           "type": "text",
           "selection": {},
           "settings": {},
@@ -833,7 +826,7 @@
           "width": 6,
           "height": 2,
           "x": 15,
-          "y": 0,
+          "y": 30,
           "type": "value",
           "selection": {},
           "settings": {
@@ -864,17 +857,17 @@
           "schema": []
         },
         {
-          "id": "a852c9da-a46b-4df7-b432-0ce5964d7467",
+          "id": "12bd22b0-f54b-41b3-aa03-2c8b44370217",
           "title": "By gender - becoming a manager",
-          "query": "",
-          "width": 10,
+          "query": "MATCH p1 = (c:Coworker)-[:HAS_JOB]->(j1:Job{is_manager:true})-[:PREVIOUS_JOB*]->(j2:Job{is_manager:false})\nWHERE length(p1) > 1\nRETURN distinct c.gender as Gender, count(c) AS Counts\nORDER BY Counts DESC;",
+          "width": 5,
           "height": 3,
           "x": 0,
-          "y": 2,
+          "y": 32,
           "type": "bar",
           "selection": {
             "index": "Gender",
-            "value": "count(c)",
+            "value": "Counts",
             "key": "(none)"
           },
           "settings": {
@@ -900,23 +893,22 @@
                 "customizationValue": "#40CFFF"
               }
             ],
-            "hideSelections": true,
-            "description": "Write a query to return the number of coworkers who were promoted to a managerial job, per gender so we can see the distribution in a bar chart."
+            "hideSelections": true
           },
           "schema": []
         },
         {
-          "id": "3600ae4c-4665-491d-b67a-cddc730973ee",
+          "id": "f081d84e-52ec-4b45-8cea-148299ad821e",
           "title": "By nationality - becoming a manager",
-          "query": "",
-          "width": 9,
+          "query": "MATCH p = (:Job{is_manager:false})<-[:PREVIOUS_JOB*]-(:Job{is_manager:true})-[:HAS_JOB]-(c:Coworker)\nRETURN c.nationality, count(c.nationality) AS promoted_to_managers\nORDER BY promoted_to_managers;",
+          "width": 5,
           "height": 3,
-          "x": 11,
-          "y": 2,
+          "x": 5,
+          "y": 32,
           "type": "bar",
           "selection": {
-            "index": "Nationality",
-            "value": "count(c)",
+            "index": "c.nationality",
+            "value": "promoted_to_managers",
             "key": "(none)"
           },
           "settings": {
@@ -944,23 +936,22 @@
             ],
             "hideSelections": true,
             "colors": "category10",
-            "marginLeft": 100,
-            "description": "Write a query to return the number of coworkers who were promoted to a managerial job, per nationality so we can see the distribution in a bar chart."
+            "marginLeft": 100
           },
           "schema": []
         },
         {
-          "id": "ea08500f-07dc-43ce-a8f4-c144b5b33a34",
+          "id": "83d90b76-8f29-423f-89c4-337f2e4efd3b",
           "title": "By age group - becoming a manager",
-          "query": "",
-          "width": 10,
+          "query": "MATCH p = (:Job{is_manager:false})<-[:PREVIOUS_JOB*]-(:Job{is_manager:true})-[:HAS_JOB]-(c:Coworker)\nRETURN c.age_group, count(c.age_group) AS promoted_to_managers\nORDER BY promoted_to_managers;",
+          "width": 5,
           "height": 3,
-          "x": 0,
-          "y": 5,
+          "x": 10,
+          "y": 32,
           "type": "bar",
           "selection": {
-            "index": "AgeGroup",
-            "value": "count(c)",
+            "index": "c.age_group",
+            "value": "promoted_to_managers",
             "key": "(none)"
           },
           "settings": {
@@ -988,8 +979,7 @@
             ],
             "hideSelections": true,
             "colors": "category10",
-            "marginLeft": 100,
-            "description": "Write a query to return the number of coworkers who were promoted to a managerial job, per age_group so we can see the distribution in a bar chart."
+            "marginLeft": 100
           },
           "schema": []
         },
@@ -997,10 +987,10 @@
           "id": "71a0d99d-66e0-409f-8f6a-b7996fc50242",
           "title": "By service year group - becoming a manager",
           "query": "MATCH p = (:Job{is_manager:false})<-[:PREVIOUS_JOB*]-(:Job{is_manager:true})-[:HAS_JOB]-(c:Coworker)\nRETURN c.service_year_group, count(c.service_year_group) AS promoted_to_managers\nORDER BY promoted_to_managers;",
-          "width": 9,
+          "width": 6,
           "height": 3,
-          "x": 11,
-          "y": 5,
+          "x": 15,
+          "y": 33,
           "type": "bar",
           "selection": {
             "index": "c.service_year_group",
@@ -1056,5 +1046,5 @@
       "active": true
     }
   },
-  "uuid": "99fbb3e1-cd1d-4884-87e2-9e2faabc1b8d"
+  "uuid": "1c044e0b-d912-44b9-b9e9-9b2b4f739dd5"
 }
