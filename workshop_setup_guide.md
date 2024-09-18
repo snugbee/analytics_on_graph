@@ -12,7 +12,7 @@ This instruction will set you up for the workshop. We will be using a sandbox en
 
 2. Browse to <https://sandbox.neo4j.com>
 3. If this is the first time you're using Neo4j Sandbox you'll have to either:
-    * Log on using an existing Google, X or LinkedIn account, or
+    * (Preferred option) Log on using an existing Google, X or LinkedIn account, or
     * Sign up for an account with Neo4j
 
 4. Once you're signed in you'll be asked to agree to Neo4j's terms and answer a few questions. If you signed up for an account with Neo4j you'll have to verify your email address. Once that is done you're able to choose what kind of sandbox to create. Choose the "Blank Sandbox" alternative:
