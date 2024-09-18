@@ -27,7 +27,7 @@ This instruction will set you up for the workshop. We will be using a sandbox en
 
 <img width="80%" alt="Connect to Database" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/connectdb.jpeg?raw=true">
 
-7. There is no data in the database yet. To load data into the database, run the [`load_coworker_dataset`](https://raw.githubusercontent.com/snugbee/analytics_on_graph/main/load_coworker_dataset.cypher) script. You can copy and paste the complete code into the Neo4j Browser query window.
+7. There is no data in the database yet. To load data into the database, run the [`load_coworker_dataset`](https://raw.githubusercontent.com/snugbee/analytics_on_graph/main/load_coworker_dataset.cypher) script. You can copy and paste the complete code into the Neo4j Browser query window and press the play button to execute the code.
 
 <img width="80%" alt="Load Data" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/querywindow.jpeg?raw=true">
 
