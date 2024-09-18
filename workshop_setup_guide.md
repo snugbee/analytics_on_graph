@@ -25,7 +25,7 @@ This instruction will set you up for the workshop. We will be using a sandbox en
 
 6. Connect to the database using the "Single Sign On" authentication method. Sometimes this leads to another log on dialog. In that case use the same account as when you logged in to Neo4j Sandbox in the second step of this guide.
 
-<img width="80%" alt="Connect to Database" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/connectdb.jpeg?raw=true">
+<img width="60%" alt="Connect to Database" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/connectdb.jpeg?raw=true">
 
 7. There is no data in the database yet. To load data into the database, run the [`load_coworker_dataset`](https://raw.githubusercontent.com/snugbee/analytics_on_graph/main/load_coworker_dataset.cypher) script. You can copy and paste the complete code into the Neo4j Browser query window and press the play button to execute the code.
 
