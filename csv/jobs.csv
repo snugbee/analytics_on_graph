@@ -65,8 +65,9 @@ employee_id,job,start_date,end_date,is_manager
 05219455,Goods Flow Co-worker,2023-08-01,9999-12-31,Non Manager
 05223721,Interior Design Co-worker,1981-09-01,9999-12-31,Non Manager
 05227315,Goods Flow Co-worker,2023-10-15,9999-12-31,Non Manager
-05228625,Sales Co-worker,2006-03-15,2022-03-31,Non Manager
-05228625,Unit People Planning Specialist,2022-04-01,9999-12-31,Non Manager
+05228625,Customer Relations Co-worker,2006-03-15,2022-03-31,Non Manager
+05228625,Sales Co-worker,2022-02-01,2023-05-31,Non Manager
+05228625,Unit People Planning Specialist,2023-06-01,9999-12-31,Non Manager
 05229977,Customer Relations Co-worker,2014-11-15,9999-12-31,Non Manager
 05230506,Goods Flow Co-worker,2021-12-01,9999-12-31,Non Manager
 05232704,Customer Relations Co-worker,2022-01-01,9999-12-31,Non Manager
@@ -90,7 +91,8 @@ employee_id,job,start_date,end_date,is_manager
 05275738,Apprentice,2023-05-15,9999-12-31,Non Manager
 05276101,Frontliner,2021-06-01,9999-12-31,Non Manager
 05277360,Market Manager,2004-07-01,9999-12-31,Manager
-05277833,IF Bistro & Sweden Shop Co-worker,2014-07-01,2023-04-30,Non Manager
+05277833,IF Bistro & Sweden Shop Co-worker,2014-07-01,2021-12-31,Non Manager
+05277833,IKEA Food Co-worker,2022-01-01,2023-04-30,Non Manager
 05277833,Sales Co-worker,2023-05-01,9999-12-31,Non Manager
 05283541,Sales Co-worker,2010-08-01,9999-12-31,Non Manager
 05284836,Customer Relations Co-worker,2022-09-01,9999-12-31,Non Manager
@@ -237,7 +239,8 @@ employee_id,job,start_date,end_date,is_manager
 05572636,Sales Co-worker,2020-09-01,9999-12-31,Non Manager
 05573599,Goods Flow Co-worker,2003-10-15,9999-12-31,Non Manager
 05574614,Customer Relations Co-worker,2000-11-15,9999-12-31,Non Manager
-05574924,IKEA Food Co-worker,2015-05-01,2023-04-30,Non Manager
+05574924,IKEA Food Co-worker,2015-05-01,2021-12-31,Non Manager
+05574924,Sales Co-worker,2022-01-01,2023-04-30,Non Manager
 05574924,Sales & Supply Support Specialist,2023-05-01,9999-12-31,Non Manager
 05575225,Goods Flow Co-worker,2022-12-01,9999-12-31,Non Manager
 05576476,Sales Co-worker,2022-02-01,2023-11-30,Non Manager
@@ -250,8 +253,9 @@ employee_id,job,start_date,end_date,is_manager
 05587088,Customer Relations Co-worker,2009-06-01,9999-12-31,Non Manager
 05587364,Goods Flow Co-worker,2021-07-01,9999-12-31,Non Manager
 05592670,Sales Co-worker,2020-08-01,9999-12-31,Non Manager
-05595236,IF Team Leader,2016-04-01,2022-08-31,Manager
-05595236,Sales Team Leader,2022-09-01,9999-12-31,Manager
+05595236,Sales Co-worker,2016-04-01,2022-07-31,Non Manager
+05595236,IF Team Leader,2022-08-01,2023-08-31,Manager
+05595236,Sales Team Leader,2023-09-01,9999-12-31,Manager
 05597984,Visual Merchandising/Activity Co-worker,2022-09-01,9999-12-31,Non Manager
 05604330,Sales Team Leader,2022-10-15,9999-12-31,Manager
 05606541,Sales Co-worker,2002-11-15,9999-12-31,Non Manager
