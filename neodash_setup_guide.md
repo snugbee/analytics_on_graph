@@ -22,4 +22,4 @@ This instruction will set you up for the Neodash part of the workshop. Neodash i
 
 <img width="70%" alt="Connect Neodash to db" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/connectneodash3.jpeg?raw=true">
 
-And now you're set up for the Neodash part of the workshop!
+And now you're all set for the Neodash part of the workshop!
