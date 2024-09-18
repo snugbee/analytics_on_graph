@@ -14,7 +14,7 @@ This instruction will set you up for the Neodash part of the workshop. Neodash i
 2. Choose "Existing Dashboard".
 
 <img width="70%" alt="Connect Neodash to db" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/connectneodash.jpeg?raw=true">
-3. Go to the Neo4j Sandbox and (1) click on the expand button. (2) Open the "Connection details" tab. (3) Copy the connection details and the password as described in the picture below:
+3. Go to the Neo4j Sandbox and (1) click on the expand button. (2) Open the "Connection details" tab. (3) Copy the connection details and the (4) password as described in the picture below:
 
 <img width="90%" alt="Connect Neodash to db" src="https://github.com/snugbee/analytics_on_graph/blob/main/img/connectneodash2.jpeg?raw=true">
 
