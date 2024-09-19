@@ -14,7 +14,7 @@ RETURN count(distinct c) AS n_employees, length(p) - 1 AS job_changes
 ORDER BY job_changes DESC
 
 // What is the role that most coworkers move from?
-MATCH p = (:Job)<-[:PREVIOUS_JOB]-(j:Job)
+MATCH p = (j:Job)<-[:PREVIOUS_JOB]-(:Job)
 WITH j.name AS job, count(j) AS transitions
 ORDER BY transitions DESC
 RETURN job, transitions
