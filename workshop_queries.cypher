@@ -13,17 +13,17 @@ MATCH p = (c:Coworker)-[:HAS_JOB]->(:Job)-[:PREVIOUS_JOB*0..5]->(:Job)
 RETURN count(distinct c) AS n_employees, length(p) - 1 AS job_changes
 ORDER BY job_changes DESC
 
-// What are the most common job transitions?
-MATCH (from:Job)<-[:PREVIOUS_JOB]-(to:Job)
-RETURN from.name AS fromJob, to.name AS toJob, count(*) AS transitions
-ORDER BY transitions DESC
-LIMIT 10
-
 // What is the role that most coworkers move from?
 MATCH p = (j:Job)<-[:PREVIOUS_JOB]-(:Job)
 WITH j.name AS job, count(j) AS transitions
 ORDER BY transitions DESC
 RETURN job, transitions
+
+// What are the most common job transitions?
+MATCH (from:Job)<-[:PREVIOUS_JOB]-(to:Job)
+RETURN from.name AS fromJob, to.name AS toJob, count(*) AS transitions
+ORDER BY transitions DESC
+LIMIT 10
 
 // Who gets promoted to manager the most?
 MATCH p = (:Job{is_manager:false})<-[:PREVIOUS_JOB]-(:Job{is_manager:true})-[:HAS_JOB|PREVIOUS_JOB*1..5]-(c:Coworker)
