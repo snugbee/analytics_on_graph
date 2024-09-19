@@ -1,3 +1,9 @@
+// What does the model look like?
+CALL apoc.meta.subGraph({
+  includeLabels: ["Coworker","Department","Job","EmployeeGroup", "DeptList", "EmpGrpList", "JobList"],
+  includeRels: ["IS_MEMBER_OF","WORKS_IN","HAS_JOB", "IN_LIST","PREVIOUS_JOB","PREVIOUS_DEPARTMENT","PREVIOUS_EMPLOYEE_GROUP"]
+});
+
 // How many coworkers have had more than one job?
 MATCH (c:Coworker)-[:HAS_JOB]->(:Job)-[:PREVIOUS_JOB]->(:Job)
 RETURN count(*) AS empl_changed_job
