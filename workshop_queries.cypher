@@ -6,7 +6,7 @@ CALL apoc.meta.subGraph({
 
 // How many coworkers have had more than one job?
 MATCH (c:Coworker)-[:HAS_JOB]->(:Job)-[:PREVIOUS_JOB]->(:Job)
-RETURN count(*) AS empl_changed_job;
+RETURN count(distinct c) AS empl_changed_job;
 
 // How many times have coworkers changed jobs?
 MATCH p = (c:Coworker)-[:HAS_JOB]->(:Job)-[:PREVIOUS_JOB*0..5]->(:Job)
