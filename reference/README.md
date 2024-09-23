@@ -4,4 +4,4 @@ Graph databases offer a powerful way to connect the dots of your BigQuery datase
 
 From that point on, you can create and enhance data relationships to derive new insights on your data by exploring complex relationships, dependencies, and patterns not easily identifiable with standard SQL queries.
 
-For a scalable solution, click [this link](https://cloud.google.com/find-a-partner/partner/neo4j)
+For a scalable solution, click [this link](https://cloud.google.com/find-a-partner/partner/neo4j).
